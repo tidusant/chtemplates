@@ -1,0 +1,23 @@
+{{template "_start.html" .}}
+{{template "header.html" .}}
+{{template "menu.html" .}}
+
+<!-- Page Content -->
+<div id="pagecontainer">
+    <h1>test Slug name Prod Cat </h1>
+    <section class="py-5">
+        <div class="container">
+            <h1>{{Page.Title}}</h1>
+            <p>{{Page.Description}}</p>
+        </div>
+    </section>
+    <!-- Page Content -->
+    <div ng-repeat="i,cat in Page.Items"><a href="{{siteurl cat.Slug}}">{{cat.Name}} </a></div>
+
+</div>
+
+{{template "footer.html" .}}
+
+{{template "_end.html" .}}
+
+ 

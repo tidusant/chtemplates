@@ -1,0 +1,5 @@
+
+image1::string::mountain.svg
+image2::string::island.svg
+image3::string::camera.svg
+image4::string::boat.svg

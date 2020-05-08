@@ -1,0 +1,150 @@
+<div>
+<header class="header">
+    <div class="main-header">
+        <a href="javascript:;" class="header__icon nobinding" id="header__icon"> </a>
+
+        <div class="information_popup_container" id="mainmenu">
+            <div class="information">             
+                <a href="{{siteurl}}" class="header__logo" style="line-height:0px;"><img ng-src="Templateurl 'images/logo.png'" />
+                </a>
+                <a href="{{siteurl}}" class="header__logo">COLIS.SHOP</a>
+            </div>
+            <div class="popup_information popup_main" id="plugin_menuCat">    
+
+                <div id="navigation" style="position: relative;">
+                    <ul class="top-level">
+
+                        <li ng-repeat="i,cat in ProdCats">
+                            <a onclick="document.getElementById('plugin_menuCat').style.visibility='hidden';" href="{{siteurl cat.Slug}}/">{{cat.Title}}</a>
+                            <div class="menupopup">
+                               
+                                <div class="content">{{cat.Content}}</div>
+                            </div>
+
+                        </li>                    
+                    </ul>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+
+        <div class="language_banner" style="float: right;margin-left: 25px;">
+            <span ng-repeat="langi,lang in Page.LangLinks" >
+                <a href="{{lang.Href}}">
+                    <img ng-src="Templateurl 'images/flags/' lang.Code '.png'" />
+                </a>
+            </span>
+        </div>
+
+
+        <div class="information_popup_container" id="cart-container" style="float:right;">
+            <div class="information  menucarthover">
+                <a href="{{siteurl}}cart/" class="header_fonticon"><span class="menucart">Giỏ hàng </span> 
+                <span class="notifyCount" >
+                    <span class="notifymessage ng-binding cartCount">{{CartCount()}}</span>
+                </span>
+                <i class="demo-icon fa fa-shopping-cart" style="margin-right:10px"> </i>
+                </a>
+
+            </div>
+            <div class="popup_information popup_cart" id="plugin-dataCart">
+
+                <div id="navigation" style="position: relative;width:250px;">
+                    <ul class="top-level" style="line-height:0px;">
+                        <li style="border-top: none;max-height:300px;overflow-y:auto;width: 100%;">
+                            <div class="item" id="itemsample" style="display:none">
+                                 <a class="cartimg"  title="carttitle" href="carttitle">
+                                  <img src="" alt="" />
+                                  </a>
+                                <a class="carttitle" href="">carttitle</a>
+                                <div class="nop">Số lượng: <span id="NOICart">0</span></div>
+                                <div class="clear"> </div>
+                            </div>
+                          
+                            <div ng-repeat="i,item in Carts()" class="item itemincart cartitem_{{item.Slug}}">
+                                 <a class="cartimg"  title="post.title" href="{{siteurl item.Slug}}/">
+                                  <img ng-src="Imageurl item.Avatar" alt="{{item.Title}}" />
+                                  </a>
+                                <a class="carttitle" href="{{siteurl item.Slug}}/">{{item.Title}}</a>
+                                <div class="nop">Số lượng: <span id="NOICart">{{item.NumInCart}}</span></div>
+
+                                <div class="clear"> </div>
+                            </div>
+
+                            
+                        </li>
+
+                        <li style="line-height:20px;border-top:1px solid #ededed;text-align:center;padding:5px 5px">
+                            <div>Tổng cộng: <span class="cartsum" id="cartsum">{{CurrencyFormat(CartTotal())}}</span><span >đ</span>
+                            </div>
+                            <div>
+                                <button class="button buttonG btnViewCart" >XEM GIỎ HÀNG</button>
+                            </div>
+                        </li>
+
+
+                    </ul>
+                </div>
+                
+
+
+
+            </div>
+        </div>
+
+
+        <div class="header_fonticon" style="position:relative;float:left"><a class="nobinding" href="tel:0938747136" style="color:#fff;text-decoration:none;"><i class="demo-icon fa fa-phone"> </i> 0938747136</a></div>
+        <div class="information_popup_container" style="float:left;">
+            <div class="information">
+                <a href="{{siteurl}}cart/" class="header_fonticon"><i class="demo-icon fa fa-question-circle-o"> </i></a>
+            </div>
+            <div class="popup_information popup_main" style="margin-left: -110px;position: fixed;">
+                <div id="navigation" style="position: relative;width:250px;">
+                    <ul class="top-level">
+                        <li style="border-top: none;"><a href="{{siteurl}}nhung-cau-hoi-thuong-gap/">Những câu hỏi thường gặp</a>
+                        </li>                        
+                        <li><a href="{{siteurl}}phuong-thuc-giao-hang-cho-khach/">Phương thức giao hàng cho khách</a>
+                        </li>
+                        <li> <a href="{{siteurl}}chinh-sach-doi-tra-va-hoan-tien-cho-khach/">Chính sách đổi trà và hoàn tiền</a>
+                        </li>
+                        <li> <a href="{{siteurl}}khach-hang-noi-gi-ve-san-pham-cua-colis-shop/">Khách hàng nói về Colis</a>
+                        </li>
+                        <li> <a href="{{siteurl Langs._about_url}}/">Giới thiệu về Colis</a>
+                        </li>
+                        <li> <a href="{{siteurl}}lien-he/">Thông tin liên hệ</a>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <a href="javascript:;" class="header_menucart_responsive btnViewCart" >
+            <div class="menucarthover">
+                <i class="demo-icon fa fa-shopping-cart" style="margin-right:10px;padding: 10px;"> </i>
+                <span class="notifyCount"><span class="notifymessage ng-binding cartCount" >{{CartCount()}} </span></span>
+            </div>
+        </a>
+
+
+
+    </div>
+</header>
+<nav class="menu">
+        <a  href="{{siteurl}}">Colis</a>
+        <a ng-repeat="i,cat in ProdCats" href="{{siteurl cat.Slug}}/" >{{cat.Title}}</a>
+        <a href="{{siteurl}}nhung-cau-hoi-thuong-gap/">Những câu hỏi thường gặp</a>
+        <a href="{{siteurl}}chinh-sach-doi-tra-va-hoan-tien-cho-khach/">Chính sách đổi trả hàng</a>
+        <a href="{{siteurl}}phuong-thuc-giao-hang-cho-khach/">Phương thức giao hàng</a>
+        <a href="{{siteurl}}khach-hang-noi-gi-ve-san-pham-cua-colis-shop/">Khách hàng nói gì về Colis</a>
+        <a href="{{siteurl}}gioi-thieu-colis/">Giới thiệu Colis</a>
+        <a href="{{siteurl}}lien-he/">Liên hệ Colis</a>
+
+    </nav>
+    </div>

@@ -1,0 +1,9 @@
+﻿
+image_size_0::int::800
+image_size_320::int::300
+image_size_640::int::500
+image_size_1000::int::600
+imagethumb::int::300
+texviet_url::string::http://duyhf.noip.me/texviet/demo1/
+travel_url::string::http://duyhf.noip.me/texviet/demo1/travello/
+dating_url::string::http://duyhf.noip.me/texviet/demo1/dating/

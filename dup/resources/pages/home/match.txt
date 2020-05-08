@@ -1,0 +1,15 @@
+title::string::Exclusive Matchmaking
+text::text::If you’re a single professional looking for a high-quality relationship, you may have experienced your time being wasted by someone who misrepresented their own relationship goals to serve their short-term agenda. It’s a story often told. Unfortunately, we can’t undo the past, but <b>TexViet</b> wants to offer support to help you find the relationship you want without the wasted time, mismatched agendas and disappointment. Through a stringent vetting process, we curate highly customized events that are also free of pressure.
+image::string::a.jpg
+title2::string::Local and Global Connections
+text2::text::Serving Introverts, Extroverts and everything in between<br /><br /><b>TexViet</b> connects like-minded singles to enjoy the process of discovering romance. This is the only group we’re happy to say, is always losing members!
+title3::string::The Matchmaking Process
+item1_title::string::Schedule your Consultation
+item1_text::text::During your one-on-one consultation with a matchmaking expert, you’ll identify your ideal partner “type”, your relationship priorities, your personality qualities, and your personal needs. All of this information is essential for designing a successful matchmaking environment that supports your journey.
+item2_title::string::Attend your Events
+item2_text::text::<b>TexViet</b> organizes events that are highly customized to achieve specific results to suit our clients. This could mean that your event is a larger mixer or something much smaller scale like a coffee date for two.
+item3_title::string::Give Feedback
+item3_text::text:: Work with your matchmaker after your event to narrow down the candidates or line up more in an approach that is constantly getting more targeted as you get closer to finding your match.
+item4_title::string::When a Match is Made
+item4_text::text::Our favorite part of the process! When clients give feedback that a spark is made, we arrange a celebratory “date night” customized to provide a special memory both partners will appreciate.
+button::string::Make an appointment

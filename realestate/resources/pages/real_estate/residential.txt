@@ -1,0 +1,6 @@
+title::string::RESIDENTIAL REAL ESTATE
+content::text::We use advanced technologies and research practices to bring you expert advice on properties that meet your targeted criteria. Our clients work with an experienced and dedicated agent, who’s fully invested in achieving the best possible outcome for you as the buyer or the seller. <br />Our goal is to maximize the value of your transaction while honoring your unique priorities. <b>TexViet</b> real estate relationships often extend to other <b>TexViet</b> lifestyle services because our unmatched commitment to quality speaks for itself. We craft residential real estate solutions to suit many needs: 
+
+needs_list::text::<br/><ul class="unordered-list" style="margin-left: 30px;"><li>First time home buyers</li><li>Relocations</li><li>Upsizing Families</li><li>Downsizing Empty Nesters</li><li>Vacation Properties and second homes</li><li>Young professionals</li><li>Newly single</li></ul>
+
+

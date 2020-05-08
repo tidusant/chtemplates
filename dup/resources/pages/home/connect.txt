@@ -1,0 +1,5 @@
+title::text::Choose from a wide variety of opportunities to connect with others.
+text::text::The nature of each event can be as diverse as the individuals we serve, and we customize every detail to achieve the desired goals of the group. One thing that remains consistent is our commitment to delivering quality outcomes and the highest value to group members.<br/><br /><b>TexViet</b> saves members from feeling awkward, wasting time, potential misunderstandings, being sucked into imbalanced partnerships, and disappointment. 
+image::string::s.jpg
+testimony1::text::<i style="color:black">“I’m very satisfied with my time spent at <b>TexViet</b> events because their team creates fun and rewarding experiences with my specific goals in mind.”</i> — <b style="color:black">Lana Nguyen</b>
+testimony2::text::<i style="color:black">“<b>TexViet</b> takes the time to understand my needs and my personality. They know my goals, my passions, and what matters most to me. They not only build rich experiences for me, but they find ways to highlight my strengths so other members can understand what I bring to the table.”</i> — <b style="color:black">Daniel Hodges</b>. 

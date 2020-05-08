@@ -1,0 +1,95 @@
+{{template "_start.html" .}}
+
+
+
+<div class="site-container">
+
+    
+
+  <div id="pagecontainer">
+      
+        <div class="pagedesc">
+            <div class="pagedesccontent">
+                {{Page.Description}}
+            </div>
+        </div>
+        <div class="container">
+
+            <div class="topspace"> </div>
+          <div class="clear" style="padding-top:30px"></div>
+          <div class="maintitle">
+            <div>
+              <h1>{{Page.Title}}</h1>
+            <div class="clear"></div>
+        </div>
+      </div>
+
+      <div class="breadcrumbs">
+         <div class="inner">
+            <ul class="cf">
+               <li> <a href="{{siteurl}}"> <i class="demo-icon fa fa-home" style="color:#aaa;font-size: 20px;"> </i> <span> </span> </a></li>
+               <li class="currentPage">{{Page.Title}}</li>
+            </ul>
+         </div>
+      </div>
+
+      <div class="mainlist" pagesize="8">
+            <ul class="paging">
+                    <li class="page-item pagefirst"><a pagenum="prev" class="page-link" >«</a></li>
+                    <li class="page-item pagenum"><a class="page-link" >1</a></li>
+                    <li class="page-item pagelast"><a pagenum="next" class="page-link" >»</a></li>
+            </ul>
+            <div class="pageitemscontent" style="display: none">
+                <div pageitem="{{i}}" class="proditem" ng-repeat="i,prod in Prods[CatId==Page->Code]">
+                    <div id="prodimg">
+                        <a ng-title="post.title" href="{{siteurl prod.Slug}}/">
+                        <img ng-src="Imageurl prod.Avatar" alt="{{prod.Name}}" />
+                        </a>
+                    </div>
+                    <div id="prodtitle">
+                        <h2>{{prod.Name}}</h2>
+                    </div>
+                    <div class="prodprice" id="prodnCu" pvalue="185">
+                        {{CurrencyFormat(prod.Price)}}đ
+                    </div>
+                    <div id="prodbutton">
+                        <button class="button buttonG buttonfull btnAddCart" data="{{prod.Slug}}" data-name="{{prod.Title}}" data-avt="{{prod.Avatar}}" data-price="{{prod.Price}}" ng-show="InCart(prod.Slug)!=true">BỎ VÀO GIỎ HÀNG</button>
+                        <button class="button buttonfull buttonGr btnViewCart" ng-show="InCart(prod.Slug)==true">XEM GIỎ HÀNG</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+            <div class="clear" style="padding-top:50px"> </div>
+
+            
+            <div class="clear" style="padding-top:40px"> </div>
+            <div style="display:none" id="pagetype">page</div>
+            <div style="display:none" id="gnameslug">{{Page.Slug}}</div>
+
+        </div>
+   
+
+  </div>
+    
+    <!-- END container -->
+    {{template "header.html" .}}
+    
+
+
+    <div class="clear bottomspace"></div>
+
+{{template "footer.html" .}}
+
+</div>
+<!-- END site-content -->
+<div class="clear"></div>
+<div id="verybottomspace" style="padding-top:50px;"> </div>  
+
+
+
+
+{{template "_end.html" .}}
+
+ 

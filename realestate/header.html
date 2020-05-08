@@ -1,0 +1,56 @@
+<div class="menutop-wrap">
+        <div class="menu-top container">
+            <div class="d-flex justify-content-end align-items-center">
+                <div id="block_language" style="min-width: 90px;" data-bind="if: LangLinks()&&LangLinks().length>1">
+                    <ul class="nav nav-menulangs" data-bind="foreach: LangLinks()">
+                      
+                        <li class="navbar-nav">
+                          <!-- <a class="nav-link" data-bind="attr: { href: '{{siteurl}}'+Href, title: Name }">
+                            <img data-bind="attr: { src: '{{Templateurl}}images/flags/'+Flag+'.png', title: Name }"/>
+                          </a> -->
+                         <a style="font-size:0.7rem!important;" data-bind="attr: {class:$root.isCurLang(Code)?'actived':'', href: '{{siteurl}}'+Href, title: Name},text:Name"></a>
+                        </li>
+                      
+                    </ul>                    
+                </div> 
+            </div>
+        </div>                  
+    </div>
+
+    <nav class="navbar navbar-expand-lg  navbar-light bg-light" >
+        <div class="container">
+              <a class="navbar-brand linkmenu nobinding" data-bind="attr:{href:Configs().texviet_url}">
+                <img data-bind="attr:{src:'{{Templateurl}}images/logo.png'}" alt="" style="margin-top:-20px;height: 60px">
+              </a>
+              <div data-bind="if: LangLinks()&&LangLinks().length>1">
+              <ul class="nav nav-menulangs mobile-layout" data-bind="foreach: LangLinks()">
+                
+                 
+                    <li class="navbar-nav">
+                      <!-- <a class="nav-link" data-bind="attr: { href: '{{siteurl}}'+Href, title: Name }">
+                        <img data-bind="attr: { src: '{{Templateurl}}images/flags/'+Flag+'.png', title: Name }"/>
+                      </a> -->
+                      <a style="font-size:0.8rem!important;margin:0 10px" data-bind="attr: {class:$root.isCurLang(Code)?'actived':'', href: '{{siteurl}}'+Href, title: Name},text:Name"></a>
+                    </li>
+                    
+                
+                </ul>
+              </div>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
+                <ul class="navbar-nav" >
+                    <li><a data-bind="text:CommonData().Langs.menu_home,attr:{class:isCurPage('home')?'actived':'',href:'{{siteurl}}'+CommonData().Pages.home.Slug}"> </a></li>
+              <!--       <li><a class="nobinding" data-bind="attr:{href:myApp().Configs.texviet_url}">TexViet</a></li> -->
+                    <li><a data-bind="attr:{class:isCurPage('real_estate')?'actived':'',href:'{{siteurl}}'+CommonData().Pages.real_estate.Slug},html:CommonData().Langs.real_estate"></a></li>
+                    <li><a data-bind="attr:{class:isCurPage('distressed_sellers')?'actived':'',href:'{{siteurl}}'+CommonData().Pages.distressed_sellers.Slug},html:CommonData().Langs.distressed_sellers"></a></li>
+                    <li><a data-bind="attr:{class:isCurPage('investors')?'actived':'',href:'{{siteurl}}'+CommonData().Pages.investors.Slug},text:CommonData().Langs.investors"></a></li>
+                    <li><a data-bind="attr:{class:isCurPage('property_management')?'actived':'',href:'{{siteurl}}'+CommonData().Pages.property_management.Slug},html:CommonData().Langs.property_management"></a></li>
+                    
+                </ul>
+              </div> 
+                                    
+        </div>
+    </nav>

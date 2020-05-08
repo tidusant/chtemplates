@@ -1,0 +1,4 @@
+title::string::Interest and Support groups
+text::text::Are you a new mom? Are you new to the area? Are you looking for sports and recreation enthusiasts like you? Our community is rich with members wanting support and connection. <b>TexViet</b> offers a way to reach like-minded people that understand your life stage, and share your interests. People were designed to go through life together, utilizing community strengths, and sharing assets like experience, encouragement, skills, and humor. <b>TexViet</b> coordinates events for individuals to connect and grow relationships that improve quality of life. Through individual human connection, we’re helping to shape lifestyle satisfaction for many.
+image::string::interestgroup.jpg
+button::string::Find your Group

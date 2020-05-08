@@ -1,0 +1,4 @@
+title::text::The Village by <b>TexViet</b>
+text1::text::There is power in creating relationships around shared interests and common goals. Second to your reputation, it’s our belief that relationships are your biggest asset. Relationships have been shown to directly influence a person’s quality of life, health, mental state, and business success.
+text2::text::The TexViet Relationship Builder is a membership for those that want to go beyond networking to truly cultivate rich and mutually beneficial relationships. We and our like-minded members take TexViet Relationship Builder more seriously than generic networking.
+image::string::village2.jpg

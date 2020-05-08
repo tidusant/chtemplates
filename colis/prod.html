@@ -1,0 +1,70 @@
+{{template "_start.html" .}}
+<div class="site-container">
+   <div id="pagecontainer">
+      <div class="pagedesc">
+         <div class="pagedesccontent">
+            {{Page.Description}}
+         </div>
+      </div>
+      <div class="container">
+         <div class="topspace"> </div>
+         <div class="clear" style="padding-top:30px"></div>
+         <div class="maintitle">
+            <div>
+               <h1>{{Page.Name}}</h1>
+               <div class="clear"></div>
+            </div>
+         </div>
+         <div class="breadcrumbs">
+            <div class="inner">
+               <ul class="cf">
+                  <li> <a href="{{siteurl}}"> <i class="demo-icon fa fa-home" style="color:#aaa;font-size: 20px;"> </i> <span> </span> </a></li>
+                  <li> <a href="{{siteurl Page.CatSlug}}/"> <span> {{SafeHtml(Page.CatTitle)}}</span><span> </span> </a></li>
+                  <li class="currentPage">{{Page.Name}}</li>
+               </ul>
+            </div>
+         </div>
+         <div class="maindetail">
+            {{Page.Content}}
+            <div class="detailpriceinfo">
+               <div class="pricetitle"> <span class="title"> {{Page.Title}} </span></div>
+               <div class="pricecontent" id="prodhgF" pvalue="150"> {{CurrencyFormat(Page.Price)}}đ</div>
+               <div class="itemimages"> 
+                  {{Page.Properties}}
+                  <div ng-repeat="iimage,image in Page.Properties" >
+                     {{image.Name}}
+                     <img ng-src="Imageurl image" alt="{{Page.Title iimage}}">
+                     }
+                  </div>
+               </div>
+               <div class="buttoncontent">                  
+                  <button class="button buttonG buttonfull btnAddCart" data="{{Page.Slug}}" data-name="{{Page.Title}}" data-avt="{{Page.Avatar}}" data-price="{{Page.Price}}" ng-show="InCart(Page.Slug)!=true">BỎ VÀO GIỎ HÀNG</button>
+                          <button class="button buttonfull buttonGr btnViewCart" ng-show="InCart(Page.Slug)==true">XEM GIỎ HÀNG</button>
+
+               </div>
+            </div>
+            <div class="clear" style="padding-top:30px"></div>
+            <div class="detailpriceinfo" id="buynotice">
+               <div class="notetitle">Lưu ý khi mua hàng</div>
+               <div class="notecontent" style="margin-top:10px">
+                  {{Configs.luu_y}}
+               </div>
+            </div>
+         </div>
+         <div class="clear" style="padding-top:50px"> </div>
+         <div class="clear" style="padding-top:40px"> </div>
+         <div style="display:none" id="pagetype">page</div>
+         <div style="display:none" id="gnameslug">{{Page.Slug}}</div>
+      </div>
+   </div>
+   <!-- END container -->
+   {{template "header.html" .}}
+   <div class="clear bottomspace"></div>
+   {{template "footer.html" .}}
+</div>
+<!-- END site-content -->
+<div class="clear"></div>
+<div id="verybottomspace" style="padding-top:50px;"> </div>
+{{template "_end.html" .}}
+
+ 

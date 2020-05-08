@@ -1,0 +1,220 @@
+
+
+/*********************************
+7. About
+*********************************/
+
+.about
+{
+	width: 100%;
+	background: #FFFFFF;
+	padding-top: 115px;
+}
+.about_row
+{
+	margin-top: 95px;
+}
+.about_content
+{
+	width: 100%;
+	margin-top: -7px;
+}
+.text_highlight
+{
+	font-size: 18px;
+	font-weight: 700;
+	color: #181818;
+	line-height: 1.66;
+}
+.about_text
+{
+	margin-top: 35px;
+}
+.about_button
+{
+	margin-top: 67px;
+}
+.about_image
+{
+	width: 100%;
+}
+.about_image img
+{
+	max-width: 100%;
+}
+
+/*********************************
+8. Milestones
+*********************************/
+
+.milestones
+{
+	width: 100%;
+	background: #FFFFFF;
+	padding-top: 115px;
+	padding-bottom: 115px;
+}
+.milestone
+{
+	width: 100%;
+}
+.milestone_icon
+{
+	display: inline-block;
+	height: 82px;
+	width: 82px;
+}
+.milestone_icon img
+{
+	max-width: 100%;
+}
+.milestone_counter
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 60px;
+	font-weight: 500;
+	color: #181818;
+	line-height: 0.75;
+	margin-top: 35px;
+}
+.milestone_text
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	color: #838383;
+	margin-top: 31px;
+	line-height: 0.75;
+}
+
+/*********************************
+9. Why choose us
+*********************************/
+
+.why
+{
+	width: 100%;
+	padding-top: 115px;
+	padding-bottom: 113px;
+}
+.why .section_subtitle,
+.why .section_title
+{
+	color: #FFFFFF;
+}
+.why_row
+{
+	margin-top: 100px;
+}
+.why_item
+{
+	width: 100%;
+	background: #FFFFFF;
+}
+.why_image
+{
+	width: 100%;
+}
+.why_image img
+{
+	max-width: 100%;
+}
+.why_content
+{
+	padding-top: 48px;
+	padding-bottom: 55px;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+.why_title
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	font-weight: 500;
+	color: #181818;
+	line-height: 1.1;
+}
+.why_text
+{
+	margin-top: 20px;
+}
+.why_icon
+{
+	position: absolute;
+	top: -29px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	width: 73px;
+	height: 73px;
+	background: #f2f5f6;
+	border-radius: 50%;
+}
+.why_icon img
+{
+	height: 40px;
+}
+
+/*********************************
+10. Team
+*********************************/
+
+.team
+{
+	width: 100%;
+	background: #FFFFFF;
+	padding-top: 115px;
+	padding-bottom: 67px;
+}
+.team_row
+{
+	margin-top: 100px;
+}
+.team_item
+{
+	width: 100%;
+	padding-bottom: 48px;
+}
+.team_image
+{
+	width: 195px;
+	height: 195px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.team_image img
+{
+	max-width: 100%;
+}
+.team_content
+{
+	width: 100%;
+}
+.team_title
+{
+	margin-top: 37px;
+}
+.team_title a
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	color: rgba(24,24,24,1);
+	line-height: 1.2;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.team_title a:hover
+{
+	color: rgba(24,24,24,0.7);
+}
+.team_text
+{
+	margin-top: 22px;
+}

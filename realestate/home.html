@@ -1,0 +1,151 @@
+<!-- start banner Area -->
+      <section class="banner-area relative" id="home" data-bind="attr:{style: 'background: url({{Templateurl}}images/'+getAssetFolder(0)+'header-bg.jpg) no-repeat center center/cover;'}">
+        <div class="overlay overlay-bg"></div>
+        <div class="container">
+          <div class="row fullscreen align-items-center justify-content-center" style="height: 915px;">
+            <div class="banner-content col-lg-12 col-md-12">
+              <h1 class="text-uppercase" data-bind="html:CommonData().Langs.site_slogan">
+               
+              </h1>
+              <!-- <div class="search-field">
+                <form class="search-form" action="#">
+                   <div class="row">
+                    <div class="col-lg-12 d-flex align-items-center justify-content-center toggle-wrap">
+                      <div class="row" style="min-width: 400px;">
+                        <div class="col-md-6">
+                          <h4 class="search-title" data-bind="html:CommonData().Langs.search_title"></h4>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="onoffswitch3 d-block mx-auto">
+                              <input type="checkbox" name="onoffswitch3" class="onoffswitch3-checkbox" id="myonoffswitch3" checked>
+                              <label class="onoffswitch3-label" for="myonoffswitch3">
+                                  <span class="onoffswitch3-inner">
+                                      <span class="onoffswitch3-active">
+                                        <span class="onoffswitch3-switch" data-bind="text:CommonData().Langs.sell"> </span>
+                                        <span class="lnr lnr-arrow-right"></span>
+                                      </span>
+                                      <span class="onoffswitch3-inactive">
+                                        <span class="lnr lnr-arrow-left"></span>
+                                        <span class="onoffswitch3-switch" data-bind="html:CommonData().Langs.rent"> </span>
+                                      </span>
+                                  </span>
+                              </label>
+                          </div>                          
+                        </div>
+                      </div>
+                    </div>
+                      <div class="col-lg-3 col-md-6 col-xs-6">
+                      <select name="location" class="app-select form-control" required>
+                        <option data-bind="html:CommonData().Langs.choose_locations"> </option>
+                        <option value="1">Dhaka</option>
+                        <option value="2">Rangpur</option>
+                        <option value="3">Bogra</option>
+                      </select>
+                      </div>
+                      <div class="col-lg-3 col-md-6 col-xs-6">
+                      <select name="property-type" class="app-select form-control" required>
+                        <option data-bind="html:CommonData().Langs.property_type"> </option>
+                        <option value="1">Property type 1</option>
+                        <option value="2">Property type 2</option>
+                        <option value="3">Property type 3</option>
+                      </select>
+                      </div>
+                      <div class="col-lg-3 col-md-6 col-xs-6">
+                      <select name="bedroom" class="app-select form-control" required>
+                        <option data-bind="html:CommonData().Langs.bed">Bedrooms</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                      </div>
+                      <div class="col-lg-3 col-md-6 col-xs-6">
+                      <select name="bedroom" class="app-select form-control" required>
+                        <option data-bind="html:CommonData().Langs.bed">Bedrooms</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                      </div>
+                      <div class="col-lg-4 range-wrap">
+                        <p><span data-bind="html:CommonData().Langs.price_range"></span>:</p>
+                        <input type="text" id="range" value="" name="range" />
+                      </div>  
+                      <div class="col-lg-4 range-wrap">
+                        <p><span data-bind="html:CommonData().Langs.area_range"></span>:</p>
+                        <input type="text" id="range2" value="" name="range" />
+                      </div>                        
+                      <div class="col-lg-4 d-flex justify-content-end">
+                      <button class="primary-btn mt-50" style="height: 45px;">
+                        <text data-bind="text: CommonData().Langs.search_button" ></text>
+                        <span class="lnr lnr-arrow-right"></span></button>
+                    </div>              
+                    </div>
+                  </form>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End banner Area -->
+      <br />
+<!-- Start service Area -->
+      <section class="service-area section-gap">
+        <div class="container">
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-8 pb-40 header-text">
+              <h1 data-bind="html:data().Blocks.overview.title"></h1>
+              <p data-bind="html:data().Blocks.overview.description"></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-md-6 pb-30">
+              <div class="single-service" data-bind="attr:{'data-href':'{{siteurl}}'+CommonData().Pages.real_estate.Slug}" >
+                <h4>
+                  <span data-bind="attr:{class:data().Blocks.overview.feature_icon_1}"></span>
+                  <span data-bind="html:data().Blocks.overview.feature_title_1"></span>
+                </h4>
+                <p data-bind="html:data().Blocks.overview.feature_text_1"></p>
+                
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 pb-30">
+              <div class="single-service" data-bind="attr:{'data-href':'{{siteurl}}'+CommonData().Pages.distressed_sellers.Slug}">
+                <h4><span data-bind="attr:{class:data().Blocks.overview.feature_icon_2}"></span><span data-bind="html:data().Blocks.overview.feature_title_2"></span></h4>
+                <p data-bind="html:data().Blocks.overview.feature_text_2"></p>
+               
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 pb-30">
+              <div class="single-service" data-bind="attr:{'data-href':'{{siteurl}}'+CommonData().Pages.investors.Slug}">
+                <h4><span data-bind="attr:{class:data().Blocks.overview.feature_icon_3}"></span>
+                  <span data-bind="html:data().Blocks.overview.feature_title_3"></span>
+                </h4>
+                <p data-bind="html:data().Blocks.overview.feature_text_3"></p>
+                             
+              </div>
+            </div>
+            
+            <div class="col-lg-6 col-md-6">
+              <div class="single-service" data-bind="attr:{'data-href':'{{siteurl}}'+CommonData().Pages.property_management.Slug}" >
+                <h4><span data-bind="attr:{class:data().Blocks.overview.feature_icon_4}"></span><span data-bind="html:data().Blocks.overview.feature_title_4"></span></h4>
+                <p data-bind="html:data().Blocks.overview.feature_text_4"></p>
+               
+              </div>
+            </div>
+                
+          </div>
+        </div>  
+      </section>
+      <!-- End service Area -->
+      <br />
+      
+
+       
+      
+      
+
+      
+    
+    
+
+      

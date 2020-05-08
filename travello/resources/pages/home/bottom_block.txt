@@ -1,0 +1,15 @@
+
+block1_title::string::University Tours Abroad
+block1_text::string::For students that want to reap the benefits of studying abroad, <b class="texvietred">TexViet</b> provides research and orchestrates tours to universities and colleges. We work with students wanting to study in the United States and students from the United States considering different countries and educational institutions. Our network of international relationships helps to enhance cultural learning and discovery while providing tactical support so that each student can fulfill their unique goals.
+block1_icon::string::why_1.svg
+block1_image::string::why_1.jpg
+
+block2_title::string::Business Travel
+block2_text::string::Instead of stressing out your office manager with your own or other company related travel needs, why not entrust <b class="texvietred">TexViet</b> to coordinate flights, accommodations, meals, and entertainment or other experiential requirements. If your aim is to make a lasting impression, we can help you knock it out of the park. Need to stretch your budget? We can help you meet your travel needs without sacrificing comfort or convenience. <b class="texvietred">TexViet</b> helps you reach your travel goals every time.
+block2_icon::string::img_502169.png
+block2_image::string::why_2.jpg
+
+block3_title::string::Relocation
+block3_text::string::If you’re looking to relocate, let us help you make the most of your exploration trip. <b class="texvietred">TexViet</b> can provide start to finish support so you can focus on collecting and considering your research.  We’ll pick you up from the airport, coordinate strategic accommodations to benefit your exploration, and line up tours, local experiences, and other research-related activities. We’ll make sure you have the resources you need so that when we drop you off at your return gate, you’re confident you understand what your new area has to offer.
+block3_icon::string::why_3.svg
+block3_image::string::why_3.jpg

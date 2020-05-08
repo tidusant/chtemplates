@@ -1,0 +1,4 @@
+
+title::string::Home and Pet Care Service
+description::text::<b class="texvietred">TexViet</b>’s home care optional service ensures you can confidently leave your home in good hands and focus on enjoying your vacation. We can make sure your plants get watered, your mail is collected, and your pets are cared for while you’re away. <br /><br />Once you trave with <b class="texvietred">TexViet</b>, it’s hard to imagine doing it any other way.
+image::string::homepetcare.jpg

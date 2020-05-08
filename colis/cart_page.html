@@ -1,0 +1,221 @@
+{{template "_start.html" .}}
+<div class="site-container">
+   <div id="pagecontainer">
+      <div class="pagedesc">
+         <div class="pagedesccontent">
+            {{Page.Description}}
+         </div>
+      </div>
+      <div class="container">
+         <div class="topspace"> </div>
+         <div class="clear" style="padding-top:30px"></div>
+         <div class="maintitle">
+            <div>
+               <h1>Giỏ hàng</h1>
+               <div class="clear"></div>
+            </div>
+         </div>
+         <div class="breadcrumbs">
+            <div class="inner">
+               <ul class="cf">
+                  <li> <a href="{{siteurl}}"> <i class="demo-icon fa fa-home" style="color:#aaa;font-size: 20px;"> </i> <span> </span> </a></li>                  
+                  <li class="currentPage">Giỏ hàng của bạn</li>
+               </ul>
+            </div>
+         </div>
+         
+
+         <div class="maindetail">
+            <div>
+               <div id="carts">
+                  <div class="mobilecart">
+                     <div ng-repeat="i,item in Carts()" class="item cartitem_{{item.Slug}}" >
+                        <a class="carttitle" href="{{siteurl item.Slug}}/">{{item.Title}}</a><a class="cartimg" href="{{siteurl item.Slug}}/"><img alt="{{item.Title}}" ng-src="Imageurl item.Avatar"></a>
+                        <div class="info" data="{{item.Slug}}" data-price="{{item.Price}}" data-num="{{item.NumInCart}}">
+                           <span class="nop">
+                              <select class="senumcit" data-id="{{item.Slug}}">
+                                 <option value="1" selected="" ng-show="item.NumInCart==1">1</option>
+                                 <option value="1" ng-show="item.NumInCart!=1">1</option>
+                                 <option value="2" selected="" ng-show="item.NumInCart==2">2</option>
+                                 <option value="2" ng-show="item.NumInCart!=2">2</option>
+                                 <option value="3" selected="" ng-show="item.NumInCart==3">3</option>
+                                 <option value="3" ng-show="item.NumInCart!=3">3</option>
+                                 <option value="4" selected="" ng-show="item.NumInCart==4">4</option>
+                                 <option value="4" ng-show="item.NumInCart!=4">4</option>
+                                 <option value="5" selected="" ng-show="item.NumInCart==5">5</option>
+                                 <option value="5" ng-show="item.NumInCart!=5">5</option>
+                                 <option value="6" selected="" ng-show="item.NumInCart==6">6</option>
+                                 <option value="6" ng-show="item.NumInCart!=6">6</option>
+                                 <option value="7" selected="" ng-show="item.NumInCart==7">7</option>
+                                 <option value="7" ng-show="item.NumInCart!=7">7</option>
+                                 <option value="8" selected="" ng-show="item.NumInCart==8">8</option>
+                                 <option value="8" ng-show="item.NumInCart!=8">8</option>
+                                 <option value="9" selected="" ng-show="item.NumInCart==9">9</option>
+                                 <option value="9" ng-show="item.NumInCart!=9">9</option>
+
+                                 
+                              </select>
+                           </span>
+                           <span>x {{CurrencyFormat(item.Price)}}đ</span><a class="btnrmcit" data-id="{{item.Slug}}" href="javascript:;" class="removeitem{{item.Slug}}"><i class="demo-icon fa fa-times-circle" style="color: #f00;font-size: 20px;"></i></a>
+                           <div style="margin-left: 135px">= <strong id="itemprice">{{CurrencyFormat(item.Price*item.NumInCart)}}</strong><strong>đ</strong></div>
+                        </div>
+                        <div class="clear"></div>
+                     </div>
+                     
+                     <div class="pricerow">
+                        <span style="float:left">Tạm tính:</span><span style="float:right;width:auto;" class="carttemptotal">{{CurrencyFormat(CartTotal())}}đ</span>
+                        <div class="clear"></div>
+                     </div>
+                     <div class="pricerow" style="margin-top:0px">
+                        <span style="float:left">Phí ship:</span><span class="shipfee" style="float:right;width:auto;">{{CurrencyFormat(ShipFee())}}đ</span>
+                        <div class="clear"></div>
+                     </div>
+                     <div class="pricerow" style="margin-top:0px">
+                        <span class="" style="float:left" >Tổng cộng:</span><span style="float:right;width:auto;" class="carttotal totalprice">{{CurrencyFormat(CartTotal()+ShipFee())}}đ</span>
+                        <div class="clear"></div>
+                     </div>
+                  </div>
+
+                  <div class="row cartcontainer" style="margin-top:30px;">
+                    <div class="colth col-6">Sản phẩm</div>
+                    <div class="colth col-2 text-right">Số lượng</div>
+                    <div class="colth col-2 text-right">Đơn giá</div>
+                    <div class="colth col-2 text-right">Thành tiền</div>
+                  </div>
+                  <div class="row cartcontainer cartitem_{{item.Slug}}" ng-repeat="i,item in Carts()" data-num="{{item.NumInCart}}" data="{{item.Slug}}" data-price="{{item.Price}}">
+                    <div class="coltd col-6">
+                       <a href="{{siteurl item.Slug}}/"> <span> <img class="noresize" width="40" style="float:left;margin-right:5px;margin-bottom:5px;width:40px !important;" ng-src="Imageurl item.Avatar"></span>{{item.Title}}</a>
+                    </div>
+                    <div class="coltd col-2 text-right">
+                        <select class="senumcit" data-id="{{item.Slug}}">
+                           <option value="1" selected="" ng-show="item.NumInCart==1">1</option>
+                           <option value="1" ng-show="item.NumInCart!=1">1</option>
+                           <option value="2" selected="" ng-show="item.NumInCart==2">2</option>
+                           <option value="2" ng-show="item.NumInCart!=2">2</option>
+                           <option value="3" selected="" ng-show="item.NumInCart==3">3</option>
+                           <option value="3" ng-show="item.NumInCart!=3">3</option>
+                           <option value="4" selected="" ng-show="item.NumInCart==4">4</option>
+                           <option value="4" ng-show="item.NumInCart!=4">4</option>
+                           <option value="5" selected="" ng-show="item.NumInCart==5">5</option>
+                           <option value="5" ng-show="item.NumInCart!=5">5</option>
+                           <option value="6" selected="" ng-show="item.NumInCart==6">6</option>
+                           <option value="6" ng-show="item.NumInCart!=6">6</option>
+                           <option value="7" selected="" ng-show="item.NumInCart==7">7</option>
+                           <option value="7" ng-show="item.NumInCart!=7">7</option>
+                           <option value="8" selected="" ng-show="item.NumInCart==8">8</option>
+                           <option value="8" ng-show="item.NumInCart!=8">8</option>
+                           <option value="9" selected="" ng-show="item.NumInCart==9">9</option>
+                           <option value="9" ng-show="item.NumInCart!=9">9</option>
+                        </select>
+                        <a class="btnrmcit" data-id="{{item.Slug}}" href="javascript:;"><i class="demo-icon fa fa-times-circle" style="color: #f00;font-size: 20px;"></i></a>
+
+                    </div>
+                    <div class="coltd col-2 text-right">
+                        <strong>{{CurrencyFormat(item.Price)}}đ</strong>
+                    </div>
+                    <div class="coltd col-2 text-right">
+                       <strong id="itemprice">{{CurrencyFormat(item.Price*item.NumInCart)}}</strong><strong>đ</strong>
+                    </div>
+                  </div>
+
+                  <div class="row cartcontainer" style="border-bottom:none;background-color: #dedede;">
+                    <div class="coltd col-6">
+
+                    </div>
+                    <div class="coltd col-2 text-right">
+
+                    </div>
+                    <div class="coltd col-2 text-right">
+                        Tạm tính:
+                    </div>
+                    <div class="coltd col-2 text-right">
+                        <span class="carttemptotal">{{CurrencyFormat(CartTotal())}}</span>đ
+                    </div>
+                  </div>
+                  <div class="row cartcontainer" style="border-bottom:none;background-color: #dedede;">
+                    <div class="coltd col-6">
+
+                    </div>
+                    <div class="coltd col-2 text-right">
+
+                    </div>
+                    <div class="coltd col-2 text-right">
+                        Phí ship:
+                    </div>
+                    <div class="coltd col-2 text-right">
+                        <span class="shipfee">{{CurrencyFormat(ShipFee())}}</span>đ
+                    </div>
+                  </div>
+                  <div class="row cartcontainer" style="background-color: #dedede;">
+                    <div class="coltd col-6">
+
+                    </div>
+                    <div class="coltd col-2 text-right">
+
+                    </div>
+                    <div class="coltd col-2 text-right">
+                        Tổng cộng:
+                    </div>
+                    <div class="coltd col-2 text-right">
+                        <span class="carttotal totalprice">{{CurrencyFormat(CartTotal()+ShipFee())}}</span>đ
+                    </div>
+                  </div>
+
+                  
+
+
+                  <div class="clear" style="margin-top:20px"> </div>
+                  <div id="cart_buttons" style="text-align:center;"><a href="{{siteurl}}"><button class="button buttonR">Xem thêm</button></a><a href="{{siteurl}}submitcart/"><button class="button buttonG">Xác nhận</button></a></div>
+               </div>
+               <div id="cartempty" style="display: none;">&nbsp; &nbsp; Hiện tại không có đơn hàng nào. <br>&nbsp; &nbsp; Hãy <span style="text-decoration: underline;"><strong><a title="liên hệ" href="../../../colis-fashion-shop-thoa-dam-me-thoi-trang-tu-mo-uoc-tuoi-hoc-tro/">gọi điện</a></strong></span>&nbsp;để được hỗ trợ.</div>
+               <div style="padding: 20px;">
+                  <div></div>
+                  <div>&nbsp;</div>
+                  <div style="text-align: center;">Colis Fashion - Thời trang cá tính ♥</div>
+               </div>
+            </div>
+            <div class="detailpriceinfo" style="margin-top:30px;display:none" id="thongtinkhuyenmai">
+               <div class="notetitle">Thông tin khuyến mãi</div>
+               <div class="notecontent" id="thongtinkhuyenmaicontent"></div>
+            </div>
+            <div class="clear" style="padding-top:30px"></div>
+            <div class="detailpriceinfo" id="buynotice">
+               <div class="notetitle">Lưu ý khi mua hàng</div>
+               <div class="notecontent" style="margin-top:10px">
+                  <ul style="font-size: small;line-height: 20px;">
+                     <li><strong style="color: #0012ff;">Miễn phí ship</strong><span> cho đơn hàng có giá trị trên 600.000đ</span></li>
+                     <li><span>Bạn hãy điền thông tin chính xác để việc giao hàng tới bạn được nhanh chóng.</span></li>
+                     <li><span>Colis Shop cam kết bảo mật tuyệt đối theo chính sách</span> <strong style="color: #f00;">bảo vệ thông tin cá nhân.</strong></li>
+                     <li><span>Vui lòng gọi điện cho</span> <a href="{{siteurl}}contact/"><strong style="color: #3c8d2f;font-size: 20px;">Colis</strong></a> nếu không thanh toán được đơn hàng</li>
+                     <li>
+                        <span>Các bạn có thể tham khảo thêm:</span>
+                        <ul style="padding-left:20px;list-style-type: none;">
+                           <li style="border-top: none;"> - <a href="{{siteurl}}nhung-cau-hoi-thuong-gap/">Những câu hỏi thường gặp</a></li>
+                           <li> - <a href="{{siteurl}}cach-dat-hang-tren-trang-colisshop-com/">Hướng dẫn đặt hàng</a></li>
+                           <li> - <a href="{{siteurl}}phuong-thuc-giao-hang-cho-khach/">Phương thức giao hàng cho khách</a></li>
+                           <li> -  <a href="{{siteurl}}chinh-sach-doi-tra-va-hoan-tien-cho-khach/">Chính sách đổi trà và hoàn tiền</a></li>
+                           <li> -  <a href="{{siteurl}}khach-hang-noi-gi-ve-san-pham-cua-colis-shop/">Khách nói gì về Colis</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+
+         <div class="clear" style="padding-top:50px"> </div>
+         <div class="clear" style="padding-top:40px"> </div>
+         <div style="display:none" id="pagetype">page</div>
+         <div style="display:none" id="gnameslug">{{Page.Slug}}</div>
+      </div>
+   </div>
+   <!-- END container -->
+   {{template "header.html" .}}
+   <div class="clear bottomspace"></div>
+   {{template "footer.html" .}}
+</div>
+<!-- END site-content -->
+<div class="clear"></div>
+<div id="verybottomspace" style="padding-top:50px;"> </div>
+{{template "_end.html" .}}
+
+ 

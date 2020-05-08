@@ -1,0 +1,4 @@
+title::string::Commercial real estate
+content::text::<p>The Austin commercial real estate market is bursting with potential. <b>TexViet</b> brings together extensive knowledge of retail, office, and industrial property market and our experience consummating complex sales. We negotiate effectively for wins both parties can appreciate.</p><p> <b>TexViet</b>’s deep-rooted network offers an advantage in identifying opportunities and managing competition. The <b>TexViet</b> commitment to adding value doesn’t stop after the sale. Whether it’s providing market information or insights about managing overhead expenses, our team’s partnership extends indefinitely. Reach us to discuss your Commercial Real Estate needs. </p>
+
+image::img::/commercial.jpg

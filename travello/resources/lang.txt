@@ -1,0 +1,19 @@
+﻿
+search_title::string::Search for your trip
+read_more::string::Read more
+menu_home::string::Home
+
+menu_petcare::string::Pet Care
+menu_contact::string::Contact
+menu_realestate::string::Real Estate
+menu_texviet::string::TexViet
+menu_travel::string::Travel
+menu_properties::string::Properties
+menu_dating::string::Dating
+menu_contact::string::Contact
+
+menu_facebook_link::string::http://facebook.com
+menu_twitter_link::string::http://twitter.com
+menu_linkedin_link::string::http://linkedin.com
+
+footer_copyright::string::Copyright &copy;2018 All rights reserved |  TexViet

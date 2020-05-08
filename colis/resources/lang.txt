@@ -1,0 +1,14 @@
+﻿
+_title::Page title
+_desc::Free HTML5 Website Template
+_hometitle::Lorum ipsum dolor
+_homedesc::Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt. Namjusto cras urna urnaretra lor urna neque sed quis orci nulla laoremut vitae doloreet condimentumst.
+_first_slide_title::First Slide
+_second_slide_title::Second Slide
+_third_slide_title::Third Slide
+_first_slide_desc::This is a description for the first slide.
+_second_slide_desc::This is a description for the second slide.
+_third_slide_desc::This is a description for the third slide.
+_home_page_title::This is demo page
+_home_page_desc::This is description for home page
+_about_url::gioi-thieu-colis

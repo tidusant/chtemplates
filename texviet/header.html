@@ -1,0 +1,39 @@
+<div class="main_menu">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container box_1620">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <a class="navbar-brand logo_h" href="{{siteurl}}"><img src="{{Templateurl}}images/logo.png" alt="" style="margin-top:-20px;height: 60px"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        
+                        <div class="collapse navbar-collapse offset" id="navbarSupportedContent" data-bind="if: CommonData()">
+                            <ul class="nav navbar-nav menu_nav" style="margin:auto">
+                                <li class="nav-item" id="menuitem-home"><a class="nav-link" href="{{siteurl}}" data-bind="text:CommonData().Langs.menu_home"></a></li> 
+                              
+                                <li class="nav-item"><a class="nav-link nobinding" data-bind="attr:{href:Configs().properties_url},text:CommonData().Langs.menu_realestate"></a></li>
+                                <li class="nav-item"><a class="nav-link nobinding" data-bind="attr:{href:Configs().travel_url},text:CommonData().Langs.menu_travel"></a></li>
+                                <li class="nav-item"><a class="nav-link nobinding" data-bind="attr:{href:Configs().dating_url},text:CommonData().Langs.menu_dating"></a></li>
+                               
+                            </ul>
+                            
+                            
+                        </div> 
+                        
+                    </div>
+                    
+                    <div id="block_language" style="min-width: 160px;margin: auto" data-bind="if: LangLinks()&&LangLinks().length>1">
+                        
+                        <ul class="nav nav-menulangs" data-bind="foreach: LangLinks()">
+                            
+                            <li class="nav-item"><a class="nav-link" data-bind="attr: { href: '{{siteurl}}'+Href, title: Name},text:Name " style="font-size:0.7rem">
+                            </a></li>
+                            
+                        </ul>
+                    </div>
+                    
+                </nav>
+            </div>

@@ -1,0 +1,568 @@
+
+ @media (max-width: 599px) {
+  body{
+		background-size:1639px;
+	}
+	.coso{
+		margin-left: 20px;
+	}
+	#banner{
+		width:284px;
+		height:86px;
+	}
+	.box-image-title-video{
+		clear:both;
+	}
+	#banner img:nth-of-type(1){
+    width: 284px;
+    content: url('/wp-content/themes/thaotien/images/tham-my-vien-thao-tien-small-4.jpg');
+  }
+  #banner img:nth-of-type(2){
+    width: 284px;
+    content: url('/wp-content/themes/thaotien/images/tham-my-vien-thao-tien-small-3.jpg');
+  }
+  #banner img:nth-of-type(3){
+    width: 284px;
+    content: url('/wp-content/themes/thaotien/images/tham-my-vien-thao-tien-small-2.jpg');
+  }
+  #banner img:nth-of-type(4){
+    width: 284px;
+    content: url('/wp-content/themes/thaotien/images/tham-my-vien-thao-tien-small-1.jpg');
+  }
+  #wrapper-outer{
+  	max-width:320px;
+  }
+  #inner{
+  	width:284px;
+  }
+  
+  #banner-shadow{
+  	height: 140px;
+background-position: 0 132px;
+  }
+  
+  #menu-more320{
+  	display:block;
+  	
+  }
+  
+  .box1, .box2{
+ 	max-width: 270px;
+ 	margin-right: 10px;
+ 	margin-left: 10px;
+ 	
+ }
+.box1 .service-item{
+	width:267px;
+}
+ 	.box1 .box-image img, .box2 .box-image img{
+ 	width: 255px;
+ 	height:auto;
+ }
+ .box1 .box-title,.box2 .box-title{ 	
+ 	font-size: 0.8em;
+	font-weight: bold;
+	line-height: 10px;
+	border-bottom: 1px solid #a54c77;
+ 	background:none;
+ }
+ .course #title h2, .box2 h3,.service-item h3{
+ 	font-size:0.84em;
+ 	text-align:center;
+ }
+ .service-item .box-image-title {
+ 	margin-top:0;
+ 	margin-bottom:10px;
+ }
+ .box{
+ 	padding: 0 10px;
+ }
+ .box .box-content{
+ 	max-width:265px;
+ }
+  .box .box-title {
+  	line-height:0.9em;
+  	background:none;
+  }
+ .box .box-title h1{
+  	font-size:0.6em;
+  }
+	.box .box-item{
+		width:266px;
+		text-align:justify;
+	}
+	.box .box-image-cover .box-image{
+		float:left;
+		margin-right: 10px;
+	}
+	.box .box-image-title h2{
+		text-align:left;
+	}
+	.box .box-image img{
+		width:252px;
+		height:auto;
+	}
+	.box .box-image-cover{
+		width:255px;
+	}
+	 .box > p > a > img{
+ 	max-width: 267px;
+	height: auto;
+	 }
+	 .box iframe{
+	 	width:267px;
+	 	height:auto;
+	 	margin-bottom:10px;
+	 }
+
+  
+  nav ul li a{
+  	padding: 11px 8px;
+  }
+  nav ul li ul{
+  	margin-left:-88px;
+  }
+  nav ul ul li a{
+  	padding: 11px 26px;
+  }
+  #footer{
+  	font-size: .78em;
+  	width:285px;
+  	height: 127px;
+  }
+  .footer-address{
+  	margin-left: 20px;
+  	height:30px;
+  }
+  
+  #contact-form input,#contact-form textarea{
+  	max-width:250px;
+  }
+  #service-item4, #service-item5, #service-item6,#footer-bg,#customer-review,
+  li#contact,li#reviews,li#about,li#promotion,li#booking,li#services,li#video,
+  .course #description,.coso
+  
+  {
+  	display:none;
+  }
+ }
+ 
+ 
+ 
+ 
+ @media (min-width: 600px) and (max-width: 767px) {
+  body{
+		background-size:1639px;
+	}
+	.coso{
+		margin-left: 20px;
+	}
+	#banner{
+		width:564px;
+		height:170px;
+	}
+  #banner img:nth-of-type(1){
+    width: 564px;
+    content: url('/wp-content/themes/thaotien/images/tham-my-vien-thao-tien-small-3.jpg');
+  }
+  #banner img:nth-of-type(2){
+    width: 564px;
+    content: url('/wp-content/themes/thaotien/images/tham-my-vien-thao-tien-small-2.jpg');
+  }
+  #banner img:nth-of-type(3){
+    width: 564px;
+    content: url('/wp-content/themes/thaotien/images/tham-my-vien-thao-tien-small-1.jpg');
+  }
+  #wrapper-outer{
+  	max-width:600px;
+  }
+  #inner{
+  	width:564px;
+  }
+  .footer-address{
+  	margin-left: 20px;
+  }
+  #banner-shadow{
+  	height: 227px;
+background-position: 0 217px;
+  }
+  
+  #menu-more600{
+  	display:block;
+  	
+  }
+  
+  .box1, .box2{
+ 	max-width: 166px;
+ 	margin-right: 10px;
+ 	margin-left: 10px;
+ 	
+ }
+.box1 .service-item{
+	width:162px;
+}
+ 	.box1 .box-image img, .box2 .box-image img, img#fblike{
+ 	width: 150px !important;
+ 	height:auto;
+ }
+  #supportonline{
+	border:2px solid #5272b7;
+	border-radius:10px;
+	background-color:#fff;
+	padding:5px;
+	width:135px;
+	font-size:10px;
+}
+ 	#supporttitle
+{
+	font-size:17px;	
+}
+#supportonline img{
+	width:138px;
+}
+ .box1 .box-title,.box2 .box-title{ 	
+ 	font-size: 0.8em;
+	font-weight: bold;
+	line-height: 10px;
+	border-bottom: 1px solid #a54c77;
+ 	background:none;
+ }
+ .course #title h2, .box2 h3,.service-item h3{
+ 	font-size:0.84em;
+ 	text-align:center;
+ }
+ .service-item .box-image-title {
+ 	margin-top:0;
+ 	margin-bottom:10px;
+ }
+  .box .box-title {
+  	line-height:0.9em;
+  	background:none;
+  }
+ .box .box-title h1{
+  	font-size:0.7em;
+  }
+	.box .box-item{
+		width:auto;
+		text-align:justify;
+	}
+	.box .box-image-cover .box-image{
+		float:left;
+		margin-right: 10px;
+	}
+	.box .box-image-title h2{
+		text-align:left;
+	}
+	 .box > p > a > img{
+ 	max-width: 520px;
+	height: auto;
+	 }
+	 .box iframe{
+	 	width:525px;
+	 	height:auto;
+	 	margin-bottom:10px;
+	 }
+
+  
+  nav ul li a{
+  	padding: 11px 18px;
+  }
+  nav ul li ul{
+  	margin-left:-88px;
+  }
+  nav ul ul li a{
+  	padding: 11px 24px;
+  }
+  
+  #service-item4, #service-item5, #service-item6,#footer-bg,#customer-review,
+  li#contact,li#reviews,li#about,li#promotion,li#booking,.course #description,#yhtitle
+  {
+  	display:none;
+  }
+ }
+ 
+ 
+ 
+ 
+ @media (min-width: 768px) and (max-width: 939px) {
+
+	#banner{
+		width:732px;
+		height:221px;
+	}
+  #banner img{
+    width: 732px;
+  }
+  #wrapper-outer{
+  	max-width:768px;
+  }
+  #inner{
+  	width:732px;
+  }
+  
+  #service-item4, #service-item5, #service-item6,#footer-bg,#customer-review,
+  li#contact,li#reviews,li#about,.course #description,#yhtitle
+  {
+  	display:none;
+  }
+ .box1, .box2{
+ 	max-width: 210px;
+ }
+ .box1{
+ 	margin-right: 15px;
+ }
+ .box1 .box-title,.box2 .box-title{ 	
+ 	font-size: 0.9em;
+ 	font-weight: bold;
+ }
+ .course #title h2, .box2 h3,.service-item h3{
+ 	font-size:1.0em;
+ 	text-align:center;
+ }
+ .service-item .box-image-title {
+ 	margin-top:0;
+ 	margin-bottom:10px;
+ }
+ 
+ .service-item .box-image img{
+  	width:198px;  	
+  	height:111px;
+  }
+  .box1 .service-item{
+  	width:210px;
+  }
+  .box1 .box-title{
+  	background:none;
+  }
+ .box > p > a > img{
+ 	max-width: 695px;
+height: auto;
+ }
+ .box iframe{
+	 	width:700px;
+	 }
+.box .box-item{
+	width:auto;
+	text-align:justify;
+}
+.box .box-image-cover .box-image{
+	float:left;
+	margin-right: 10px;
+}
+.box .box-image-title h2{
+	text-align:left;
+}
+ .box2 .box-image img{
+ 	width: 196px !important;
+ }
+ img#fblike{
+ 	width: 196px !important;
+ }
+ #supportonline{
+	border:2px solid #5272b7;
+	border-radius:10px;
+	background-color:#fff;
+	padding:5px;
+	width:183px;
+}
+#supportonline img{
+	width:187px;
+}
+  .footer-address{
+  	margin-left: 20px;
+  }
+  #banner-shadow{
+  	height: 285px;
+  	background-position:0 268px;
+  }
+  
+  #menu-more780{
+  	display:block;
+  	
+  }
+  nav ul li a{
+  	padding: 11px 13px;
+  }
+  nav ul li ul{
+  	margin-left:-88px;
+  }
+  nav ul ul li a{
+  	padding: 11px 26px;
+  }
+  .box .box-image-cover:nth-of-type(4n){
+	clear:both;
+	}
+	body{
+		background-size:1639px;
+	}
+	.coso{
+		margin-left: 20px;
+	}
+}
+
+@media (min-width: 940px) and (max-width: 1055px) {
+	#banner{
+		width:905px;
+		height:273px;
+	}
+  #banner img{
+    width: 905px;
+  }
+  #wrapper-outer{
+  	max-width:941px;
+  }
+  #inner{
+  	width:905px;
+  }
+  nav ul li a{
+  	padding: 11px 6px;
+  }
+  nav ul{
+  	padding: 0 0px;
+  }
+  #banner-shadow{
+  	height: 330px;
+  	background-position:0 320px;
+  }
+  #footer-bg{
+  	display:none;
+  }
+  .box1{
+  	width:270px;
+  	font-size: 1.3em;
+  }
+  .box2{
+  	font-size: 1.3em;
+  }
+  .service-item .box-image-title h3,.box-image-title h3{
+  	font-size: 0.9em;
+  }
+  .box1 .box-title{
+  	background:none;
+  }
+  .course .box-image img{
+  	width:134px;
+  }
+  .box2 #supportonline{font-size:16px;}
+  .course #title h2{
+  	font-size: 1.0em;
+  	margin: auto;
+  }
+  .box > p > a > img{
+ 	max-width: 865px;
+	height: auto;
+	 }
+  .box-image-title{
+  	margin-bottom:10px;
+  	margin-top:0px;
+  }
+  .service-item .box-image img{
+  	width: 258px;
+	height: 144px;
+  }
+  #service-item4, #service-item5, #service-item6{
+  	display:none;
+  }
+  .box1 .service-item{
+  	width:auto;
+  }
+  .box .box-item{
+  	width:415px;  	
+  }
+  .box-title{
+  	font-size: 0.9em;
+  }
+  .box .box-image-cover:nth-of-type(5n){
+	clear:both;
+	}
+	.box .box-image-cover{
+		margin-right: 20px;
+	}
+	body{
+		background-size:1232px;
+	}
+}
+
+@media (min-width: 1056px) and (max-width: 1236px) {
+	#banner{
+		width:1020px;
+		height:308px;
+	}
+  #banner img{
+    width: 1020px;
+  }
+  #wrapper-outer{
+  	max-width:1056px
+  }
+  #inner{
+  	width:1020px;
+  }
+  .box1{
+  	width:300px;
+  }
+  .box1 .service-item{
+  	width:294px;
+  }
+  #banner-shadow{
+  	height: 370px;
+  	background-position:0 355px;
+  }
+  #footer-bg{
+  	display:none;
+  }
+  .service-item {
+  	width:146px;
+  }
+  .service-item .box-image-title h3,.box-image-title h3{
+  	font-size: 0.9em;
+  }
+  .service-item .box-image img{
+  	width:282px;
+  	height:158px;
+  }
+  .course .box-image img{
+  	width:134px;
+  }
+  .course #title h2{
+  	font-size: 1.0em;
+  	margin: auto;
+  }
+   .box > p > a > img{
+ 	max-width: 980px;
+	height: auto;
+	 }
+  .box .box-item{
+  	width:470px;
+  }
+  .box .box-content{
+  	max-width: 250px;
+  }
+   nav ul li a{
+  	padding: 11px 10px;
+  }
+  .box .box-image-cover:nth-of-type(5n){
+	clear:both;
+	}
+	.box .box-image-cover{
+		margin-right: 48px;
+	}
+	body{
+		background-size:110%;
+	}
+	
+}
+@media (min-width: 1236px){
+	#banner{
+		width:1199px;
+		height:362px;
+	}
+	.box .box-image-cover:nth-of-type(6n){
+	clear:both;
+	}
+ .service-item .box-image img{
+  	width:386px;  	
+  }
+  .box1 .service-item{
+  	width:398px;
+  }
+}

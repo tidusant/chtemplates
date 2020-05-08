@@ -1,0 +1,48 @@
+<!--================Header Menu Area =================-->
+        <!-- Start Header Area -->
+            
+                <div class="header-wrap">
+                    <div class="header-top d-flex justify-content-between align-items-center">
+                        <div class="logo">
+                            <a data-bind="attr:{href:Configs().texviet_url}"><img src="{{Templateurl}}images/logo.png" style="margin-top:-13px;height: 60px" alt=""></a>
+                            
+                        </div>
+                        
+                        <div class="main-menubar d-flex align-items-center" data-bind="if:CommonData()">
+                            <nav class="hide">
+                               <div>
+                                <a data-bind="text:CommonData().Langs.menu_home,attr:{class:isCurPage('home')?'actived':'',href:Configs().texviet_url}"></a>
+                    
+                            </div><div>
+                                <a data-scroll-to="#mentoring" href="javascript:;" data-bind="text:CommonData().Langs.menu_mentoring,attr:{class:isCurPage('home')?'actived':''}"></a>
+                            </div><div>
+                                <a data-scroll-to="#support"  href="javascript:;" data-bind="text:CommonData().Langs.menu_support,attr:{class:isCurPage('home')?'actived':''}"></a>
+                            </div><div>
+                                <a data-scroll-to="#matchmaking" href="javascript:;" data-bind="text:CommonData().Langs.menu_match,attr:{class:isCurPage('home')?'actived':''}"></a>
+                            </div><div>
+                                <a data-scroll-to="#contact" href="javascript:;" data-bind="text:CommonData().Langs.menu_contact,attr:{class:isCurPage('home')?'actived':''}"></a>
+                            </div>
+<hr />
+                                <div id="block_language" style="" data-bind="if: LangLinks()&&LangLinks().length>1">
+                                   
+                                    <div class="" data-bind="foreach:LangLinks()">
+                          
+                                        
+                                         <a style="font-size:0.7rem!important;" data-bind="attr: {class:$root.isCurLang(Code)?'actived':'', href: '{{siteurl}}'+Href, title: $data.Name},text:Name"></a>
+                                       
+                                      
+                                    </div>  
+                                    
+                                  
+
+                                </div>
+
+                                
+                            
+                            </nav>
+                            <div class="menu-bar" data-bind="click:menuclick"><span id="menubutton" class="lnr lnr-menu"></span></div>
+                        </div>
+                        
+                    </div>
+                </div>
+        

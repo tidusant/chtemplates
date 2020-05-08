@@ -1,0 +1,35 @@
+site_title::string::TexViet Site
+banner_title::string::TexViet
+banner_description::string::Connecting People to Make Life Easier
+
+total_residents::string::Total Residents
+total_booking::string::Total Booking
+total_volunteers::string::Total Volunteers
+
+contactus::string::Contact Us
+address_1::string::California, United States
+address_2::string::Santa monica bullevard
+phone::string::00 (440) 9865 562
+worktime::string::Mon to Fri 9am to 6 pm
+mailto::string::support@colorlib.com
+sendps::string::Send us your query anytime
+social_title::string::Instragram Feed
+follow::string::Follow Us
+send_us_social::string::Let us be social
+copyright::string::Copyright &copy;2018 All rights reserved
+us_social::string::Let us be social
+
+menu_home::string::Home
+menu_about::string::About
+menu_realestate::string::Real Estate
+menu_travel::string::Travel
+menu_dating::string::Dating
+menu_contact::string::Contact
+
+
+contact_entername::string::Enter your name
+contact_enteremail::string::Enter email address
+contact_entersubject::string::Enter Subject
+contact_entermessage::string::Enter Message
+contact_sendmessage::string::Send Message
+

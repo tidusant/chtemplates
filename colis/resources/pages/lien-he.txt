@@ -1,0 +1,3 @@
+Title::Thông tin liên hệ với Colis
+Description::Thông tin liên hệ với Colis
+Content::<div><p>&nbsp;</p><p>&nbsp;</p><h2><span style="color: #008000;"><strong>???? Colis Fashion Shop – Thời trang & cá tính của bạn</strong></span></h2><p>&nbsp;</p><p><span style="font-size: 18pt;">email:&nbsp;<a href="mailto:cocolis2012@gmail.com">cocolis2012@gmail.com</a></span>&nbsp;</p><p><span style="font-size: 18pt;">mobile/zalo/viber: 0938.747.136</span></p><p>&nbsp;</p><p><span style="font-size: 18pt;">facebook:&nbsp;<a href="http://fb.com/colis.shop">fb.com/colis.shop</a></span></p><p>&nbsp;</p><p><span style="font-size: 18pt;">&nbsp;</span></p></div>

@@ -1,0 +1,10 @@
+﻿currencyFormat::string::,dot,3
+shipfee::int::25000
+freeship::int::600000
+image_size_0::int::800
+image_size_320::int::300
+image_size_640::int::500
+image_size_1000::int::600
+imagethumb::int::300
+luu_y::html::<ul style="font-size: small;line-height: 20px;"> <li><strong style="color: #0012ff;">Miễn phí ship</strong><span> cho đơn hàng có giá trị trên 600.000đ</span></li><li><span>Bạn hãy điền thông tin chính xác để việc giao hàng tới bạn được nhanh chóng.</span></li><li><span>Colis Shop cam kết bảo mật tuyệt đối theo chính sách</span> <strong style="color: #f00;">bảo vệ thông tin cá nhân.</strong></li><li><span>Vui lòng gọi điện cho</span> <a href="http://duyhf.noip.me/colis/output/contact/"><strong style="color: #3c8d2f;font-size: 20px;">Colis</strong></a> nếu không thanh toán được đơn hàng</li><li> <span>Các bạn có thể tham khảo thêm:</span> <ul style="padding-left:20px;list-style-type: none;"> <li style="border-top: none;"> - <a href="http://duyhf.noip.me/colis/output/nhung-cau-hoi-thuong-gap/">Những câu hỏi thường gặp</a></li><li> - <a href="http://duyhf.noip.me/colis/output/cach-dat-hang-tren-trang-colisshop-com/">Hướng dẫn đặt hàng</a></li><li> - <a href="http://duyhf.noip.me/colis/output/phuong-thuc-giao-hang-cho-khach/">Phương thức giao hàng cho khách</a></li><li> - <a href="http://duyhf.noip.me/colis/output/chinh-sach-doi-tra-va-hoan-tien-cho-khach/">Chính sách đổi trà và hoàn tiền</a></li><li> - <a href="http://duyhf.noip.me/colis/output/khach-hang-noi-gi-ve-san-pham-cua-colis-shop/">Khách nói gì về Colis</a></li></ul> </li></ul>
+noc_menu::int::4

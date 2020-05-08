@@ -1,0 +1,7 @@
+
+banner_title1::string::Your trusted resource for world class Travel service.
+banner_title2::string::Pack your luggage, we’ll handle the rest!
+banner_title3::string::Let us take you away!
+image1::string::home_slider.jpg
+image2::string::destination_5.jpg
+image3::string::destination_8.jpg

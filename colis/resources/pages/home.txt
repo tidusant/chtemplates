@@ -1,0 +1,3 @@
+Title::Home11
+Description::Colis Shop là website tập hợp các sản phẩm chủ đạo của shop, các chương trình khuyến mãi hấp dẫn mới nhất của shop cùng dịch vụ chăm sóc người mua chu đáo nhất. Là nơi bạn có thể trải nghiệm mua sắm trực tuyến thỏa thích mà Colis Shop mang lại chỉ với 1 click chuột. Dù bạn là một nhân viên văn phòng, người nội trợ hay sinh viên, chắc chắn bạn cũng sẽ yêu thích trải nghiệm mua hàng nhanh tại Colis.
+Content::Home Content

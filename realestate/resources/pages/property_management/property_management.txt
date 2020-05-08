@@ -1,0 +1,8 @@
+title::string::Property Management
+commitment_1::string::Commitment to Investors and Landlords
+commitment_content_1::text::<b>TexViet</b> Property Management Services are both robust and flexible to offer the highest advantage for Investment clients and property owners. Our support can encompass all administrative, financial, and grounds duties. Or support can be highly customized in an a la cart fashion to include specific items or special requests.<br /><br />We can assume management responsibilities after the lease is signed or we can help to list the property, qualify tenants and prepare lease contracts. <br /><br />We use the latest software and technologies that support efficient and integrated administration processes both landlords and tenants appreciate.<br /><br /><b>TexViet</b>’s investment mindset extends to our attention and care for the property. Our goal is to maintain the highest level of property environment with zero wasted expense. We use our trusted network to obtain fair maintenance pricing while keeping constant watchful eyes on the property to avoid large scale maintenance needs that can arise from neglect.
+commitment_image_1::img::/commit_1.png
+
+commitment_2::string::Commitment to Tenants
+commitment_content_2::text::Tenants can expect respectful and highly responsive staff. <b>TexViet</b> Property Management team members adhere to top-level customer service standards and are trained to handle tenant requests, needs, and financial commitments in an effective and efficient manner. Tenants value the accessibility to our staff services and our above and beyond attitude which is synonymous with the <b>TexViet</b> brand.
+commitment_image_2::img::/commit_2.jpg

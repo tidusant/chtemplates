@@ -1,0 +1,12 @@
+title::string::Mentoring
+text::text::We focus on developing skills in youth ages 15 to college age and mothers reentering the work-force. Experience and connections are two factors that can generate momentum toward a fulfilling career. Young people and women returning to work face unique challenges in securing opportunities to grow their professional worth, and often these challenges stem from a lack in one or both components. That’s why <b>TexViet</b> is dedicated to preparing program participants to be able to find and take full advantage of growth opportunities<br /><br />Our 10-day emersion course covers critical development skills over four areas of focuses. Courses are customized to each person’s unique strengths and background.
+item1_title::string::Career Path
+item1_text::text::Build a strong foundation for upward mobility. We’ll help you identify and maximize your strengths, and coach you in weaker areas. You’ll learn how to find your best opportunities, secure your place at the table, and make the most of all your organization has to offer.
+item2_title::string::Life Skills
+item2_text::text::Financial planning, setting and achieving income goals, and budgeting are subjects not covered in academia. But they’re important skills for building wealth and security and are a large part of the fundamental course work.
+
+item3_title::string::Leadership
+item3_text::text::Learn tips for better problem-solving, project management, teamwork, communication, inspiring others, and motivation.
+
+item4_title::string::Business and entrepreneurship
+item4_text::text::Learn to use key business technologies, explore industries and businesses of interest, learn the basics of business finance and operations.

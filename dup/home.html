@@ -1,0 +1,146 @@
+
+<!-- Start Banner Area -->
+        <section class="banner-area relative" id="">
+            <div class="overlay overlay-bg"></div>
+            <div class="container">
+                <div class="row fullscreen align-items-center justify-content-between" style="height: 600px">
+                    <div class="col-lg-6 col-md-7 col-sm-8">
+                        <div class="banner-content">
+                            <h1 data-bind="html:data().Blocks.welcome.title"> </h1>
+                            <p data-bind="html:data().Blocks.welcome.text1">  </p>
+                            <p data-bind="html:data().Blocks.welcome.text2"> </p>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-4">
+                        <img data-bind="attr:{src:'{{Templateurl}}images/'+data().Blocks.welcome.image}" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Banner Area -->
+<!-- Start studio Area -->
+    <section class="section-gap studio-area" id="opportunity">
+      <div class="overlay overlay-bg"></div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-4 col-sm-6 text-center">
+            <div class="studio-thumb">
+              <img data-bind="attr:{src:'{{Templateurl}}images/'+data().Blocks.connect.image}"  class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="col-md-8 col-sm-6">
+            <div class="studio-content">
+              <h2 data-bind="html:data().Blocks.connect.title"></h2>
+              <p data-bind="html:data().Blocks.connect.text"> </p>
+
+<blockquote class="generic-blockquote" data-bind="html:data().Blocks.connect.testimony1"> </blockquote>
+<blockquote class="generic-blockquote" data-bind="html:data().Blocks.connect.testimony2"> </blockquote>
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End studio Area -->
+    <!-- Start Achivement Area -->
+    <section class="section-gap achivement-area" id="mentoring">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-7">
+            <div class="achivement-content">
+              <h2 data-bind="html:data().Blocks.mentoring.title"> </h2>
+              <p class="mb-30" data-bind="html:data().Blocks.mentoring.text"> </p>
+
+             
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="total-achivement">
+              <img src="{{Templateurl}}images/life-skills.png"  class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+              <blockquote class="generic-blockquote">
+                <ul class="unordered-list">
+                  <li><b data-bind="html:data().Blocks.mentoring.item1_title"> </b> - <span data-bind="html:data().Blocks.mentoring.item1_text"></span></li>
+                  <li><b data-bind="html:data().Blocks.mentoring.item2_title"> </b> - <span data-bind="html:data().Blocks.mentoring.item2_text"></span></li>
+                  <li><b data-bind="html:data().Blocks.mentoring.item3_title"> </b> - <span data-bind="html:data().Blocks.mentoring.item3_text"></span></li>
+                  <li><b data-bind="html:data().Blocks.mentoring.item4_title"> </b> - <span data-bind="html:data().Blocks.mentoring.item4_text"></span></li>
+                  
+                </ul>
+              </blockquote>
+            </div>
+          </div>
+
+
+      </div>
+    </section>
+    <!-- End Achivement Area -->
+    
+    <!-- Start Skill Area -->
+    <section class="section-gap skill-area" id="support">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-12">
+            <div class="skill-content">
+              <h2 data-bind="text:data().Blocks.groups.title"> </h2>
+              <p class="mb-30" data-bind="html:data().Blocks.groups.text"></p>
+             <img style="width:100%" data-bind="attr:{src:'{{Templateurl}}images/'+data().Blocks.groups.image}" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="button-group-area mt-10 text-center"><a data-scroll-to="#contact" href="javascript:;" class="genric-btn danger-border circle arrow" ><span data-bind="text:data().Blocks.groups.button"> </span> <span class="lnr lnr-arrow-right"> </span></a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- End Skill Area -->
+    <!-- about-generic-area -->
+    <section class="section-gap skill-area" id="matchmaking">
+      
+      <div class="container border-top-generic">
+        <h2 class="about-title mb-70 " data-bind="text:data().Blocks.match.title"> </h2>
+        <div class="row">
+          <div class="col-md-2">
+            <div class="img-text">
+              <img data-bind="attr:{src:'{{Templateurl}}images/'+data().Blocks.match.image}" alt="" class="img-fluid float-left mr-20 mb-20">              
+            </div>
+          </div>
+          <div class="col-md-10">
+            <div class="img-text">
+              <p class="" data-bind="html:data().Blocks.match.text"></p>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <h4 data-bind="text:data().Blocks.match.title2"> </h4>
+            <p data-bind="html:data().Blocks.match.text2"> </p>
+            <br />
+          </div>
+          <div class="col-lg-12">
+              <h4 data-bind="text:data().Blocks.match.title3"> </h4>
+              <ol class="ordered-list ">
+              <li class=""><span><b data-bind="text:data().Blocks.match.item1_title"> </b></span> - <span data-bind="html:data().Blocks.match.item1_text"> </span></li>
+
+              <li class=""><span><b data-bind="text:data().Blocks.match.item2_title"></b></span> - <span data-bind="html:data().Blocks.match.item2_text"> </span></li>
+              <li class=""><span><b data-bind="text:data().Blocks.match.item3_title"> </b></span> - <span data-bind="html:data().Blocks.match.item3_text"> </span></li>
+              <li class=""><span><b data-bind="text:data().Blocks.match.item4_title"></b></span> - <span data-bind="html:data().Blocks.match.item4_text"> </span></li>
+
+            </ol>
+
+          </div>
+          <div class="col-md-12">
+            <div class="button-group-area mt-10 text-center"><a data-scroll-to="#contact" href="javascript:;" class="genric-btn danger-border circle arrow"> <span data-bind="text:data().Blocks.match.button"> </span> <span class="lnr lnr-arrow-right"></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Carousel Area -->
+    

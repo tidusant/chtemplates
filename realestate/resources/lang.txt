@@ -1,0 +1,48 @@
+﻿site_title::string::TexViet Estate
+site_slogan::string::We’re TexViet Estate Pro
+search_title::string::Search Properties For
+search_button::string::Search Properties
+
+real_estate::string::Real Estate
+investors::string::Investors
+distressed_sellers::string::Distressed Sellers
+property_management::string::Property Management
+
+home_contact_entername::string::Enter your name
+home_contact_enteremail::string::Enter email address
+home_contact_entersubject::string::Enter Subject
+home_contact_entermessage::string::Enter Message
+home_contact_sendmessage::string::Send Message
+menu_home::string::Home
+menu_service::string::Service
+menu_dating::string::Dating
+menu_travel::string::Travel
+menu_property::string::Property
+menu_contact::string::Contact
+menu_about::string::About Us
+footer_contact::string::Contact Us
+footer_address1::string::California, United States
+footer_address2::string::Santa monica bullevard
+footer_phone::string::00 (440) 9865 562
+footer_worktime::string::Mon to Fri 9am to 6 pm
+footer_mailto::string::support@colorlib.com
+footer_sendps::string::Send us your query anytime
+footer_social_title::string::Instragram Feed
+footer_follow::string::Follow Us
+footer_send_us_social::string::Let us be social
+footer_copyright::string::Copyright &copy;2018 All rights reserved
+bed::string::Bedrooms
+bath::string::Bathrooms
+sqft::string::SqFt
+area::string::Area
+built::string::Built
+rentrate::string::Rent rate
+permonth::string:: per Month
+home_forrent::string::For Rent
+
+sell::string::Sell
+rent::string::Rent
+choose_locations::string::Choose Locations
+property_type::string::Property Type
+price_range::string::Price Range
+area_range::string::Area Range

@@ -1,0 +1,56 @@
+<div id="body">
+    <div>
+        <div class="box1">
+            <div class="box-title"><a ng-href="{{Templateurl}}courses/">Chương trình đào tạo</a> </div>   
+                                      
+            <div style="margin-top:20px;"  ng-repeat="post in data.courses">                  
+                <div id="service-item" class="box-image-cover service-item" style="margin-right:0;">
+                    <div class="box-image" style="margin-right:0px;" >
+                    <a ng-href="siteurl+post.slug+'/"><img ng-alt="post.title" ng-title="post.title" src="siteurl+post.slug+'/'+post.featureimage+'[[sitesize.home]]'+post.featureimagetype" /></a> </div>
+                    <div class="box-image-title"><a ng-href="siteurl+post.slug+'/"><h3>{{post.title}}</h3></a> </div>
+                </div>
+                <div class="clear"> </div>
+            </div>   
+        </div>
+        <div class="box1">
+            <div class="box-title"><a ng-href="{{Templateurl}}services/">Dịch vụ làm đẹp</a> </div>
+            <div style="margin-top:20px;"  ng-repeat="post in data.services">                  
+                <div id="service-item" class="box-image-cover service-item" style="margin-right:0;">
+                    <div class="box-image" style="margin-right:0px;" >
+                    <a ng-href="siteurl+post.slug+'/"><img ng-alt="post.title" ng-title="post.title" src="siteurl+post.slug+'/'+post.featureimage+'[[sitesize.home]]'+post.featureimagetype" /></a> </div>
+                    <div class="box-image-title"><a ng-href="siteurl+post.slug+'/"><h3>{{post.title}}</h3></a> </div>
+                </div>
+                <div class="clear"> </div>
+            </div>                
+        </div>
+        <div class="box2">
+            <div class="box-title"><a ng-href="{{Templateurl}}video/">Video nổi bật</a> </div>
+            <div style="margin-top:20px;"  ng-repeat="post in data.videos">                  
+                <div id="service-item" class="box-image-cover service-item" style="margin-right:0;">
+                    <div class="box-image" style="margin-right:0px;" >
+                    <a ng-href="siteurl+post.slug+'/">
+                        <img style="width:240px;height:auto;" ng-alt="post.title" ng-title="post.title" src="siteurl+post.slug+'/'+post.featureimage+'[[sitesize.home]]'+post.featureimagetype" /></a> </div>
+                    <div class="box-image-title"><a ng-href="siteurl+post.slug+'/"><h3>{{post.title}}</h3></a> </div>
+                </div>
+                <div class="clear"> </div>
+            </div>    
+
+            <div style="margin-top:20px;">
+                            <a href="https://www.facebook.com/thammyvienthaotiencom">
+                                <img id="fblike" width="240" alt="Like facebook" title="Like facebook" src="{{Templateurl}}images/facebook_like_logo.png">
+                                </a>
+                            </div>
+
+            <div id="supportonline" style="margin-top:20px;">
+                            <center><b id="supporttitle">Hỗ trợ trực tuyến</b></center>
+                            <a href="ymsgr:sendim?thaotien.beauty">
+                                <img id="ymsupport" alt="Hỗ trợ trực tuyến" title="Hỗ trợ trực tuyến" src="{{Templateurl}}images/support.jpg">
+                                
+                                </a>
+                                <span id="yhtitle">Yahoo:</span> <a href="mailto:thaotien.beauty@yahoo.com">thaotien.beauty@yahoo.com</a><br>
+                                Vui lòng gọi: (08) 3 957 0742
+                            </div>            
+        </div>
+    </div>
+    <div class="clear"> </div>
+﻿﻿</div>

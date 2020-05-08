@@ -1,0 +1,12 @@
+
+title1::string::Top Destinations
+subtitle1::string::Nulla pretium tincidunt felis, nec.
+image1::string::beach.svg
+
+title2::string::The Best Prices
+subtitle2::string::Sollicitudin mauris lobortis in.
+image2::string::wallet.svg
+
+title3::string::Amazing Services
+subtitle3::string::Nulla pretium tincidunt felis, nec.
+image3::string::suitcase.svg

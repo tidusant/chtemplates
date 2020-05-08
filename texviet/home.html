@@ -1,0 +1,75 @@
+<!--================Home Banner Area =================-->
+        <section class="home_banner_area">
+            <div class="banner_inner d-flex align-items-center">
+                <div class="container">
+                    <div class="banner_content">
+                        <h3 data-bind="text:CommonData().Langs.banner_title"></h3>
+                        <h5 data-bind="text:CommonData().Langs.banner_description"></h5>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                
+            </div>
+        </section>
+        <!--================End Home Banner Area =================-->
+        
+        <section class="welcome_area p_120">
+    <div class="container">
+        <div class="row welcome_inner">
+        
+            <div class="col-lg-12">
+                <div class="welcome_text" >
+                    <h2 style="text-align: center" data-bind="text:data().Blocks.welcome.welcome_text"></h2>
+                    <p data-bind="html:data().Blocks.welcome.welcome_description"></p>                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="properties_area">
+    <div class="container">
+        <div class="main_title">
+            <h2 style="text-align: center" data-bind="text:data().Blocks.service.title"></h2></div>
+        
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6 pb-30">
+              <div class="single-service" data-bind="attr:{onClick: 'window.location=\''+Configs().properties_url+'\''}">
+                <h4><span data-bind="attr:{class:data().Blocks.service.icon_1}"></span><span data-bind="text:data().Blocks.service.title_1"></h4>
+                <p data-bind="html:data().Blocks.service.content_1"></p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 pb-30">
+              <div class="single-service" data-bind="attr:{onClick: 'window.location=\''+Configs().travel_url+'\''}">
+                <h4><span data-bind="attr:{class:data().Blocks.service.icon_2}"></span><span data-bind="text:data().Blocks.service.title_2"></h4>
+                <p data-bind="html:data().Blocks.service.content_2"></p>             
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 pb-30">
+              <div class="single-service" data-bind="attr:{onClick: 'window.location=\''+Configs().dating_url+'\''}">
+                <h4><span data-bind="attr:{class:data().Blocks.service.icon_3}"></span><span data-bind="text:data().Blocks.service.title_3"></h4>
+                <p data-bind="html:data().Blocks.service.content_3"></p>               
+              </div>
+            </div>
+                   
+          </div>
+          <br />
+
+    </div>
+</section>
+<br />
+<section class="testimonials_area p_120">
+    <div class="container">
+        <div class="row testimonials_inner">
+            <div class="col-lg-12">
+                <div class="main_title">
+                    <h2 data-bind="text:data().Blocks.about.title"></h2>
+                    <p data-bind="html:data().Blocks.about.content"></p>    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>

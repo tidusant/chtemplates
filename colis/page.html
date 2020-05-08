@@ -1,0 +1,69 @@
+{{template "_start.html" .}}
+
+
+
+<div class="site-container">
+
+    
+
+  <div id="pagecontainer">
+      
+        <div class="pagedesc">
+            <div class="pagedesccontent">
+                {{Page.Description}}
+            </div>
+        </div>
+        <div class="container">
+
+            <div class="topspace"> </div>
+            <div class="clear" style="padding-top:30px"></div>
+            <div class="maintitle">
+                <div>
+                    <h1>{{Page.Title}}</h1>
+                    <div class="clear"></div>
+                </div>
+            </div>
+
+            <div class="breadcrumbs">
+               <div class="inner">
+                  <ul class="cf">
+                     <li> <a href="{{siteurl}}"> <i class="demo-icon fa fa-home" style="color:#aaa;font-size: 20px;"> </i> <span> </span> </a></li>
+                     <li> <a> <span>{{Page.Title}}</span> <span> </span> </a></li>
+                  </ul>
+               </div>
+            </div>
+
+            <div class="maindetail">
+                {{Page.Content}}
+            </div>
+
+            
+            <div class="clear" style="padding-top:40px"> </div>
+            <div style="display:none" id="pagetype">page</div>
+            <div style="display:none" id="gnameslug">{{Page.Slug}}</div>
+
+        </div>
+   
+
+  </div>
+    
+    <!-- END container -->
+    {{template "header.html" .}}
+    
+
+
+    <div class="clear bottomspace"></div>
+
+{{template "footer.html" .}}
+
+</div>
+<!-- END site-content -->
+<div class="clear"></div>
+<div id="verybottomspace" style="padding-top:50px;"> </div>  
+
+
+
+
+{{template "_end.html" .}}
+
+ 

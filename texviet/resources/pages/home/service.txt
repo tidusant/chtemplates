@@ -1,0 +1,11 @@
+title::string::Tour our suite of services.
+title_1::string::Real Estate
+content_1::text::In addition to Traditional Buying and Selling of homes and commercial properties, <b>TexViet</b> offers three additional specializations.<br /><br /> We facilitate sales of Distressed or Special Circumstance properties. <br /><br />Investors can buy from our inventory of investment properties. <br /><br />We provide property management services for investors.
+icon_1::string::lnr lnr-user
+
+title_2::string::Travel
+content_2::text::<b>TexViet</b> specializes in Asia and Europe travel and multi-destination trips.<br /><br />Our full-service concierge, provides personalized service, unique and exclusive experiences, and attention to special needs or desires of travelers. <br /><br />Our property management capabilities extend to home and pet care, should travelers require assistance while away. 
+icon_2::string::lnr lnr-license
+
+title_3::string::Networking Building & Social Membership
+content_3::text::We take the pressure out of building social and business relationships while maximizing our members valuable spare time. <br /><br />Customized events for specific group members focus on unique and varied objectives and are always fun and rewarding. <br /><br />Members may also use our online community the <b>TexViet</b> Slack Channel, to connect, tap resources, refer business and grow friendships. <br /><br />There are many business and social networking opportunities to meet member needs. 

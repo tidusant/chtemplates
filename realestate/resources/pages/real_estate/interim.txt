@@ -1,0 +1,3 @@
+title::string::Interim Rentals for Buyers & Sellers 
+content::text::<b>TexViet</b> offers one-stop for rental and temporary accommodation assistance for real estate buyers and sellers. <br />When completing your real estate sale or purchase means that you’re temporarily displaced, <b>TexViet</b>’s rental team makes sure your transition period is as comfortable as possible. Save time and stress searching for options. We’ve got it covered!
+image::img::RentIncreases.jpg

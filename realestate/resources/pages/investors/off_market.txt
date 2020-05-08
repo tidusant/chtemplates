@@ -1,0 +1,25 @@
+title::string::Off Market Opportunities
+
+prop_title_1::string::Rent rate: $1495 per Month
+prop_image_1::string::pp-1.jpg
+prop_bed_1::string::04
+prop_bath_1::string::02
+prop_area_1::string::1937 SqFt
+prop_build_1::string::2003
+prop_address_1::string::Houston, TX 77433 1 story
+
+prop_title_2::string::Rent rate: $1895 per Month
+prop_image_2::string::pp-2.jpg
+prop_bed_2::string::04
+prop_bath_2::string::02
+prop_area_2::string::2145 SqFt
+prop_build_2::string::2011
+prop_address_2::string::Pflugerville, TX 78660. 1 story.
+
+prop_title_3::string::Rent rate: $1995 per Month
+prop_image_3::string::pp-3.jpg
+prop_bed_3::string::04
+prop_bath_3::string::03
+prop_area_3::string::1972 SqFt
+prop_build_3::string::2017
+prop_address_3::string::Pflugerville, TX 78660. 1 story.

@@ -1,0 +1,108 @@
+<section class="service-area section-gap">
+	<div class="container">
+	  <div class="row d-flex justify-content-center">
+	    <div class="col-md-8 pb-40 header-text">
+	      <h1 data-bind="html:data().Blocks.investors.title"></h1>
+	    </div>
+	  </div>
+	  <div data-bind="html:data().Blocks.investors.content">
+	  </div>	  
+	</div>  
+</section>
+<br /><br />
+<section class="service-area">
+	<div class="container">
+	  	<h3 class="text-heading" data-bind="html:data().Blocks.investors.key_title"> </h3>
+	  	<div data-bind="html:data().Blocks.investors.key_content"></div>
+	  	<br/>
+	  	<div data-bind="html:data().Blocks.investors.end_content"></div>
+	  	<br/>
+	</div>  
+</section>
+
+<!-- Start property Area -->
+      <section class="property-area section-gap relative" id="property" data-bind="attr:{style: 'background: url({{Templateurl}}images/'+getAssetFolder(0)+'service-bg.jpg) no-repeat center center/cover;'}">
+        <div class="overlay overlay-bg"></div>
+        <div class="container">
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-8 pb-40 header-text">
+              <h1 data-bind="html:data().Blocks.off_market.title"></h1>
+             
+                
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="single-property">
+                <div class="images">
+                  <img class="img-fluid mx-auto d-block" data-bind="attr:{src:'{{Templateurl}}images/'+getAssetFolder()+data().Blocks.off_market.prop_image_1}" alt="">                  
+                </div>
+                
+                <div class="desc">
+                  <div class="top d-flex justify-content-between">
+                    <h4><a href="#" data-bind="html:data().Blocks.off_market.prop_title_1"></a></h4>
+                  </div>
+                  <div class="middle">
+                    <div class="d-flex justify-content-start" data-bind="html:CommonData().Langs.bed+ ' ' +data().Blocks.off_market.prop_bed_1"></div>
+                    <div class="d-flex justify-content-start" data-bind="html:CommonData().Langs.bath+ ' ' +data().Blocks.off_market.prop_bath_1"></div>
+                     <div class="d-flex justify-content-start" data-bind="html:CommonData().Langs.area+ ' ' +data().Blocks.off_market.prop_area_1"></div>
+                     <div class="d-flex justify-content-start" data-bind="html:CommonData().Langs.built+ ' ' +data().Blocks.off_market.prop_build_1"></div>
+                    
+                  </div>
+                  <div class="bottom d-flex justify-content-start">
+                    <span class="lnr lnr-map-marker"></span><span data-bind="html:data().Blocks.off_market.prop_address_1"></span></div>  
+                </div>  
+              </div>
+            </div>  
+            <div class="col-lg-4">
+              <div class="single-property">
+                <div class="images">
+                  <img class="img-fluid mx-auto d-block" data-bind="attr:{src:'{{Templateurl}}images/'+getAssetFolder()+data().Blocks.off_market.prop_image_2}" alt="">
+                  
+                </div>
+                
+                <div class="desc">
+                  <div class="top d-flex justify-content-between">
+                    <h4><a href="#" data-bind="html:data().Blocks.off_market.prop_title_2"></a></h4>
+                  </div>
+                  <div class="middle">
+                    <div class="d-flex justify-content-start" data-bind="html:CommonData().Langs.bed+ ' ' +data().Blocks.off_market.prop_bed_2"></div>
+                    <div class="d-flex justify-content-start" data-bind="html:CommonData().Langs.bath+ ' ' +data().Blocks.off_market.prop_bath_2"></div>
+                     <div class="d-flex justify-content-start" data-bind="html:CommonData().Langs.area+ ' ' +data().Blocks.off_market.prop_area_2"></div>
+                     <div class="d-flex justify-content-start" data-bind="html:CommonData().Langs.built+ ' ' +data().Blocks.off_market.prop_build_2"></div>
+                    
+                  </div>
+                  <div class="bottom d-flex justify-content-start">
+                    <span class="lnr lnr-map-marker"></span><span data-bind="html:data().Blocks.off_market.prop_address_2"></span></div>  
+                </div> 
+              </div>
+            </div>  
+            <div class="col-lg-4">
+              <div class="single-property">
+                <div class="images">
+                  <img class="img-fluid mx-auto d-block" data-bind="attr:{src:'{{Templateurl}}images/'+getAssetFolder()+data().Blocks.off_market.prop_image_3}" alt="">
+                  
+                </div>
+                
+                <div class="desc">
+                  <div class="top d-flex justify-content-between">
+                    <h4><a href="#" data-bind="html:data().Blocks.off_market.prop_title_3"></a></h4>
+                  </div>
+                  <div class="middle">
+                    <div class="d-flex justify-content-start" data-bind="html:CommonData().Langs.bed+ ' ' +data().Blocks.off_market.prop_bed_3"></div>
+                    <div class="d-flex justify-content-start" data-bind="html:CommonData().Langs.bath+ ' ' +data().Blocks.off_market.prop_bath_3"></div>
+                     <div class="d-flex justify-content-start" data-bind="html:CommonData().Langs.area+ ' ' +data().Blocks.off_market.prop_area_3"></div>
+                     <div class="d-flex justify-content-start" data-bind="html:CommonData().Langs.built+ ' ' +data().Blocks.off_market.prop_build_3"></div>
+                    
+                  </div>
+                  <div class="bottom d-flex justify-content-start">
+                    <span class="lnr lnr-map-marker"></span><span data-bind="html:data().Blocks.off_market.prop_address_3"></span></div>  
+                </div>
+              </div>
+            </div>                                                      
+          </div>
+        </div>  
+        <br />
+      </section>
+      <!-- End property Area --> 

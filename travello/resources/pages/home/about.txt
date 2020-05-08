@@ -1,0 +1,6 @@
+
+title::string::Vacation Travel
+subtitle::string::Popular Destinations
+text_highlight::text::It’s the <b class="texvietred">TexViet</b> philosophy that in life, you take only memories and relationships with you. Why, then, should you leave your vacation to chance when the time is irreplaceable?
+about_text::text::<p><b class="texvietred">TexViet</b>’s Travel Services make your vacation experience one to remember and cherish. Our hospitality experts handle every detail, from creating custom itineraries to accommodations for special needs. <br /><br /><b class="texvietred">TexViet</b> specializes in Asia and Europe travel and multi-destination trips. We’re a full-service concierge and travel provider. When we begin planning your trip, our discussions with you help us to design unique and exclusive experiences that you and your loved ones will especially appreciate and remember for years to come. <br /><br />Our first-hand familiarity with the Asia and Europe destinations make <b class="texvietred">TexViet</b> the first choice for numerous travelers to these areas. </p>
+image::string::about_1.jpg

@@ -1,0 +1,114 @@
+{{template "_start.html" .}}
+<div class="site-container">
+   <div id="pagecontainer">
+      <div class="pagedesc">
+         <div class="pagedesccontent">
+            {{Page.Description}}
+         </div>
+      </div>
+      <div class="container">
+         <div class="topspace"> </div>
+         <div class="clear" style="padding-top:30px"></div>
+         <div class="maintitle">
+            <div>
+               <h1>Xác nhận thông tin</h1>
+               <div class="clear"></div>
+            </div>
+         </div>
+         <div class="breadcrumbs">
+            <div class="inner">
+               <ul class="cf">
+                  <li> <a href="{{siteurl}}"> <i class="demo-icon fa fa-home" style="color:#aaa;font-size: 20px;"> </i> <span> </span> </a></li>                  
+                  <li class="currentPage">Xác nhận đơn hàng</li>
+               </ul>
+            </div>
+         </div>
+
+         <div class="maindetail">
+            <div>
+               <div id="contactform" ng-show="CartCount()>0">
+                  <div style="font-size: 20px;font-weight: bold;text-align: center;margin-top:20px">Đơn hàng của bạn là:</div>
+                  <div class="cartconfirm">
+                     <div class="pricerow" style="margin-top:0px" ng-repeat="i,item in Carts()">
+                        <span style="float:left"> {{item.NumInCart}} x <a class="carttitle" href="{{siteurl item.Slug}}">{{item.Title}}</a></span>
+                        <span class="" style="float:right;width:auto;font-weight: bold">{{CurrencyFormat(item.NumInCart*item.Price)}}đ</span>
+                        <div class="clear"></div>
+                     </div>
+                     <div class="pricerow" style="margin-top:0px">
+                        <span style="float:left">Phí ship:</span><span class="" style="float:right;width:auto;font-weight: bold">{{CurrencyFormat(ShipFee())}}đ</span>
+                        <div class="clear"></div>
+                     </div>
+                     <hr />
+                     <div class="pricerow" style="margin-top:0px">
+                        <span class="" style="float:left">Tổng cộng:</span><span class="totalprice" style="float:right;width:auto;">{{CurrencyFormat(CartTotal()+ShipFee())}}đ</span>
+                        <div class="clear"></div>
+                     </div>
+                  </div>
+               
+                  <div style="font-size:20px;font-weight: bold;margin-top:30px;">Địa chỉ giao hàng:</div>
+                  <div><input id="address" style="width: 100%;text-align: left;" class="button buttonW" value="" placeholder="Số nhà, phường, xã, thành phố"></div>
+                  <div style="font-size:20px;font-weight: bold;margin-top:30px;">Người nhận:</div>
+                  <div><input id="name" style="width: 100%;text-align: left;" class="button buttonW" value="" placeholder="Tên người nhận hàng"></div>
+                  <div style="font-size:20px;font-weight: bold;margin-top:30px;">Điện thoại:</div>
+                  <div style="text-align: center;"><input style="width: 100%;text-align: left;"  id="phone-submit" class="button buttonW" maxlength="11" type="number" value="" placeholder="Số điện thoại"></div>
+
+                  <div style="text-align: center;">&nbsp;</div>
+                  <div style="text-align: center;">
+                     <textarea id="note-submit" style="width: 100%;" class="button buttonW" placeholder="Ghi chú thêm về giờ giấc giao hàng nếu có yêu cầu"></textarea>
+                     
+                     <div style="text-align: center;"><button id="btnSubmitCart" class="button buttonG">Gửi đơn hàng </button>&nbsp;</div>
+                     <div style="text-align: center;">&nbsp;</div>
+                     <div style="text-align: center;">&nbsp;</div>
+                     
+                  </div>
+               </div>
+               <div ng-show="CartCount()==0" style="padding: 20px; border: 1px solid rgb(234, 221, 221); margin-bottom: 30px; margin-top: 30px; background-color: ghostwhite;">
+                  <div style="text-align: center; font-weight: bold; margin-bottom: 10px; color: #09964f;">Cảm ơn bạn đã quan tâm shop nhé&nbsp;♥</div>    
+                  <div style="text-align: center; line-height: 20px;margin-top:30px;">
+                     <a href="{{siteurl}}" style="text-decoration:none "> <i class="demo-icon fa fa-home" style="color:#aaa;font-size: 30px;"> </i><br />Về trang chủ</a>
+                  </div>             
+                  <div style="text-align: left;">&nbsp;</div>
+               </div>
+               <div id="thankyou" style="padding: 20px; border: 1px solid rgb(234, 221, 221); margin-bottom: 30px; margin-top: 30px; background-color: ghostwhite; display: none;">
+                  <div style="text-align: left; font-weight: bold; margin-bottom: 10px; color: #09964f;">Cảm ơn bạn đã ủng hộ shop nhé&nbsp;♥</div>
+                  <div style="text-align: left; line-height: 20px;">Đơn hàng của bạn sẽ được shop nhanh chóng kiểm tra và liên lạc với bạn sớm nhất có thể.&nbsp;</div>
+                  <div style="text-align: center; line-height: 20px;margin-top:30px;">
+                     <a href="{{siteurl}}" style="text-decoration:none "> <i class="demo-icon fa fa-home" style="color:#aaa;font-size: 30px;"> </i><br />Về trang chủ</a>
+                  </div>   
+                  <div style="text-align: left;">&nbsp;</div>
+               </div>
+               <div class="detailpriceinfo" id="buynotice">
+                  <div class="notetitle">Lưu ý khi mua hàng</div>
+                  <div class="notecontent" style="margin-top:10px">
+                     {{Configs.luu_y}}
+                  </div>
+               </div>
+               <div style="text-align: center;margin-top:20px">Colis Fashion - Thời trang cá tính ♥</div>
+               <div style="text-align: center;">&nbsp;</div>
+            </div>
+
+
+         </div>
+         
+
+
+
+
+
+         <div class="clear" style="padding-top:50px"> </div>
+         <div class="clear" style="padding-top:40px"> </div>
+         <div style="display:none" id="pagetype">page</div>
+         <div style="display:none" id="gnameslug">{{Page.Slug}}</div>
+      </div>
+   </div>
+   <!-- END container -->
+   {{template "header.html" .}}
+   <div class="clear bottomspace"></div>
+   {{template "footer.html" .}}
+</div>
+<!-- END site-content -->
+<div class="clear"></div>
+<div id="verybottomspace" style="padding-top:50px;"> </div>
+{{template "_end.html" .}}
+
+ 
