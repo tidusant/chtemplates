@@ -12,12 +12,12 @@
                         
                         <div class="collapse navbar-collapse offset" id="navbarSupportedContent" data-bind="if: CommonData()">
                             <ul class="nav navbar-nav menu_nav" style="margin:auto">
-                                <li class="nav-item" id="menuitem-home"><a class="nav-link" href="{{siteurl}}" data-bind="text:CommonData().Langs.menu_home"></a></li> 
+                                <li class="nav-item" id="menuitem-home"><a class="nav-link" data-bind="text:CommonData().Langs.menu_home,attr:{href:'{{siteurl}}'+CommonData().Pages.home.Slug}"></a></li> 
                               
                                 <li class="nav-item"><a class="nav-link nobinding" data-bind="attr:{href:Configs().properties_url},text:CommonData().Langs.menu_realestate"></a></li>
                                 <li class="nav-item"><a class="nav-link nobinding" data-bind="attr:{href:Configs().travel_url},text:CommonData().Langs.menu_travel"></a></li>
                                 <li class="nav-item"><a class="nav-link nobinding" data-bind="attr:{href:Configs().dating_url},text:CommonData().Langs.menu_dating"></a></li>
-                               
+                                <li class="nav-item"><a class="nav-link"  data-bind="text:CommonData().Langs.menu_contact,attr:{href:'{{siteurl}}'+CommonData().Pages.contact.Slug}" id="menuitem-contact"></a></li>
                             </ul>
                             
                             

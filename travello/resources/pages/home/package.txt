@@ -1,0 +1,6 @@
+
+subtitle::text::<p>We also offer family vacation packages for any budget. Let us know when you’d like to travel. <br />We’ll provide your family with a list of options.</p>
+title::string::Current Vacation Package Deals
+image1::string::news_1.jpg
+image2::string::news_2.jpg
+image3::string::news_3.jpg

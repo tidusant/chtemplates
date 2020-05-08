@@ -5,9 +5,9 @@ menu_home::string::Home
 menu_about::string::About
 menu_realestate::string::Real Estate
 menu_texviet::string::TexViet
-menu_mentoring::string::Mentoring
-menu_support::string::Support
-menu_match::string::Matchmaking
+menu_travel::string::Travel
+menu_properties::string::Properties
+menu_dating::string::Dating
 menu_contact::string::Contact
 
 contact_entername::string::Enter your name
@@ -26,5 +26,5 @@ sendps::string::Send us your query anytime
 social_title::string::Instragram Feed
 follow::string::Follow Us
 send_us_social::string::Let us be social
-footer_copyright::string::Copyright &copy;2018 All rights reserved |  TexViet
+copyright::string::Copyright &copy;2018 All rights reserved
 us_social::string::Let us be social

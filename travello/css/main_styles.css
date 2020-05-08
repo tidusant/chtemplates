@@ -797,7 +797,7 @@ section
 	position: absolute;
 	top: 0;
 	right: 119px;
-	height: 90px;
+	height: 148px;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -935,7 +935,7 @@ section
 {
 	position: absolute;
 	left: 60px;
-	top: 25%;
+	top: 50%;
 	-webkit-transform: translateY(-50%);
 	-moz-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
@@ -993,9 +993,7 @@ section
 /*********************************
 5. Home
 *********************************/
-.texvietred{
-  color: #f5100c;
-}
+
 .home
 {
 	width: 100%;
@@ -1020,7 +1018,7 @@ section
 	font-size: 100px;
 	line-height: 1.1;
 	font-weight: 400;
-	color: #f5100c;
+	color: #FFFFFF;
 }
 .home_page_nav
 {

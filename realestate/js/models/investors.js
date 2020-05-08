@@ -8,9 +8,7 @@ models["investors"]={
   getAssetFolder:function(folder){
     return getAppAssetFolder(folder);
   },
-  CommonData:function(){
-    return myApp["CommonData"];
-  },
+  
 	init:function(isRedirect){
     initModel(this,isRedirect);   
 		

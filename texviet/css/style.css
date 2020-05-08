@@ -131,7 +131,7 @@ button:focus {
 }
 
 .main_title p {
-  font-size: 1.4rem;
+  font-size: 1rem;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   line-height: 24px;
@@ -3687,15 +3687,15 @@ h6 {
 .single-service:hover {
   box-shadow: -14.142px 14.142px 20px 0px rgba(157, 157, 157, 0.5);
   cursor: pointer;
-  color: #000;
+  color: #fff;
 
-  background-image: -moz-linear-gradient(0deg, #e6e6e6 0%, #ffb6b6 100%);
-  background-image: -webkit-linear-gradient(0deg, #e6e6e6 0%, #ffb6b6 100%);
-  background-image: -ms-linear-gradient(0deg, #e6e6e6 0%, #ffb6b6 100%);
+  background-image: -moz-linear-gradient(0deg, #f40f68 0%, #fbcd08 100%);
+  background-image: -webkit-linear-gradient(0deg, #f40f68 0%, #fbcd08 100%);
+  background-image: -ms-linear-gradient(0deg, #f40f68 0%, #fbcd08 100%);
 }
 
 .single-service:hover h4 {
-  color: #000;
+  color: #fff;
 }
 
 .single-service h4 {

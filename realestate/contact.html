@@ -1,0 +1,26 @@
+<!-- Start Contact Area -->
+      <section class="contact-area section-gap">
+        <div class="container-fluid">
+          <div style=" width:100%;
+                  height: 545px;" id="map" data-bind="html:data().Blocks.map.map"></div>
+                    
+         
+          <div class="row align-items-center d-flex justify-content-start">
+            <div class="col-lg-6 col-md-12" style="margin: auto;">
+                   <form class="form-area" id="myForm" action="mail.php" method="post" class="contact-form text-right" style="text-align: center;">
+                <input name="fname" data-bind="attr:{placeholder:CommonData().Langs.home_contact_entername,onblur:'this.placeholder = \''+CommonData().Langs.home_contact_entername+'\''}" onfocus="this.placeholder = ''" class="common-input mt-10" required="" type="text">
+                <input name="email" data-bind="attr:{placeholder:CommonData().Langs.home_contact_enteremail,onblur:'this.placeholder = \''+CommonData().Langs.home_contact_enteremail+'\''}" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" class="common-input mt-10" required="" type="email">
+                <textarea class="common-textarea mt-10" name="message" data-bind="attr:{placeholder:CommonData().Langs.home_contact_enteremail,onblur:'this.placeholder = \''+CommonData().Langs.home_contact_entermessage+'\''}" onfocus="this.placeholder = ''" required=""></textarea>
+                <button class="primary-btn mt-20">
+                  <text data-bind="text: CommonData().Langs.home_contact_sendmessage" ></text>
+                 <span class="lnr lnr-arrow-right"></span></button>
+                <div class="alert-msg">
+                </div>
+              </form>
+            </div>
+            
+          </div>
+          <br />
+        </div>
+      </section>
+      <!-- End Contact Area --> 

@@ -1,0 +1,7 @@
+
+image_1::string::images/properties/pp-2.jpg
+image_2::string::images/properties/pp-3.jpg
+image_3::string::images/properties/pp-1.jpg
+content_1::text::<a href="javascript:;"><h4>Houston, TX 77433 1 story</h4></a><div class="tags"><a href="javascript:;">04 Beds</a><a href="javascript:;">02 Baths</a><a href="javascript:;">1937 Sqft</a><a href="javascript:;">Built 2003</a><a href="javascript:;">Rent: $1495/Month</a></div>
+content_2::text::<a href="javascript:;"><h4>Pflugerville, TX 78660, 1 story</h4></a> <div class="tags"> <a href="javascript:;">04 Beds</a> <a href="javascript:;">02 Baths</a> <a href="javascript:;">2145 Sqft</a> <a href="javascript:;">Built 2011</a> <a href="javascript:;">Rent: $1895/Month</a></div>
+content_3::text::<a href="javascript:;"><h4>Pflugerville, TX 78660, 1 story</h4></a> <div class="tags"> <a href="javascript:;">04 Beds</a> <a href="javascript:;">03 Baths</a> <a href="javascript:;">1972 Sqft</a> <a href="javascript:;">Built 2017</a> <a href="javascript:;">Rent: $1995/Month</a></div>

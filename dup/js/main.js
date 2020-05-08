@@ -6,7 +6,7 @@ function mainjs() {
     models['footer'].init();
     $('body').addClass('dup-body');
     loadAllLink();
-    initScrolling() ;
+    
 
 
 }
@@ -63,5 +63,6 @@ function redirectinit() {
         fixedContentPos: false
     });
 
-    
+    initScrolling() ;
 }
+

@@ -1,28 +1,49 @@
 <div class="container">
-    <h6 class="footer_title" data-bind="text:CommonData().Langs.footer_contact"></h6>
                     <div class="row">
-                        <div class="col-lg-6  col-md-6 col-sm-12">
+                        <div class="col-lg-4  col-md-4 col-sm-12">
                             <div class="single-footer-widget">
-                                
+                                <h6 class="footer_title" data-bind="text:CommonData().Langs.footer_contact"></h6>
                                 <div class="contact_info">
-                                    <div class="info_item"> <i class="lnr lnr-home"></i>
-                                        <strong style="color:#fff" data-bind="text:CommonData().Langs.footer_address1"></strong>
-                                        <p data-bind="text:CommonData().Langs.footer_address2"></p>
-                                    </div>
-                                    
+                                <div class="info_item"> <i class="lnr lnr-home"></i>
+                                    <strong style="color:#fff" data-bind="text:CommonData().Langs.footer_address1"></strong>
+                                    <p data-bind="text:CommonData().Langs.footer_address2"></p>
+                                </div>
+                                <div class="info_item"> <i class="lnr lnr-phone-handset"></i>
+                                    <strong><a style="color:#fff" data-bind="text:CommonData().Langs.footer_phone,attr:{href:'phone:'+CommonData().Langs.footer_phone}"></a></strong>
+                                    <p data-bind="text:CommonData().Langs.footer_worktime"></p>
+                                </div>
+                                <div class="info_item"> <i class="lnr lnr-envelope"></i>
+                                    <strong><a style="color:#fff" data-bind="text:CommonData().Langs.footer_mailto,attr:{href:'mailto:'+CommonData().Langs.footer_mailto}"></a></strong>
+                                    <p data-bind="text:CommonData().Langs.footer_sendps">!</p>
                                 </div>
                             </div>
+                            </div>
                         </div>
-                      
-                        <div class="col-lg-6  col-md-6 col-sm-12">
+                                         
+                        <div class="col-lg-4  col-md-4 col-sm-12">
+                            <div class="single-footer-widget mail-chimp">
+                                <h6 class="mb-20" data-bind="text:CommonData().Langs.footer_social_title"></h6>
+                                <ul class="instafeed d-flex flex-wrap">
+                                    <li><img data-bind="attr:{src:'{{Templateurl}}images/'+getAssetFolder()+'i2.jpg'}" alt=""></li>
+                                    <li><img data-bind="attr:{src:'{{Templateurl}}images/'+getAssetFolder()+'i2.jpg'}" alt=""></li>
+                                    <li><img data-bind="attr:{src:'{{Templateurl}}images/'+getAssetFolder()+'i3.jpg'}" alt=""></li>
+                                    <li><img data-bind="attr:{src:'{{Templateurl}}images/'+getAssetFolder()+'i4.jpg'}" alt=""></li>
+                                    <li><img data-bind="attr:{src:'{{Templateurl}}images/'+getAssetFolder()+'i5.jpg'}" alt=""></li>
+                                    <li><img data-bind="attr:{src:'{{Templateurl}}images/'+getAssetFolder()+'i6.jpg'}" alt=""></li>
+                                    <li><img data-bind="attr:{src:'{{Templateurl}}images/'+getAssetFolder()+'i7.jpg'}" alt=""></li>
+                                    <li><img data-bind="attr:{src:'{{Templateurl}}images/'+getAssetFolder()+'i8.jpg'}" alt=""></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4  col-md-4 col-sm-12">
                             <div class="single-footer-widget">
-                                
-                                <div class="contact_info">
-                                    
-                                    <div class="info_item"> <i class="lnr lnr-envelope"></i>
-                                        <strong><a style="color:#fff" data-bind="text:CommonData().Langs.footer_mailto,attr:{href:'mailto:'+CommonData().Langs.footer_mailto}"></a></strong>
-                                        <p data-bind="text:CommonData().Langs.footer_sendps">!</p>
-                                    </div>
+                                <h6 data-bind="text:CommonData().Langs.footer_follow"></h6>
+                                <p data-bind="text:CommonData().Langs.footer_us_social"></p>
+                                <div class="footer-social d-flex align-items-center">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                                    <a href="#"><i class="fa fa-behance"></i></a>
                                 </div>
                             </div>
                         </div>                          

@@ -74,15 +74,15 @@ function initHomeSlider() {
 
 function setHeader() {
     var header = $('.header');
-    var headerSocial = $('.header_social');
+var headerSocial = $('.header_social');
 
-    // if ($(window).scrollTop() > 127) {
-    //     header.addClass('scrolled');
-    //     headerSocial.addClass('scrolled');
-    // } else {
-    //     header.removeClass('scrolled');
-    //     headerSocial.removeClass('scrolled');
-    // }
+    if ($(window).scrollTop() > 127) {
+        header.addClass('scrolled');
+        headerSocial.addClass('scrolled');
+    } else {
+        header.removeClass('scrolled');
+        headerSocial.removeClass('scrolled');
+    }
 }
 
 /* 

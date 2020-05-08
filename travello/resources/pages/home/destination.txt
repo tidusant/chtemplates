@@ -1,0 +1,9 @@
+
+title::string::Popular Destinations
+subtitle::string::simply amazing places
+image1::string::destination_1.jpg
+image2::string::destination_2.jpg
+image3::string::destination_3.jpg
+image4::string::destination_4.jpg
+image5::string::destination_5.jpg
+image6::string::destination_6.jpg

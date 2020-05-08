@@ -1,5 +1,5 @@
 <div id="headercontroller">
-    <header class="header scrolled">
+    <header class="header">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -8,10 +8,14 @@
                             <div class="logo"><a class="nobinding" data-bind="attr:{href:Configs().texviet_url}"><img src="{{Templateurl}}images/logo.png" alt="" style="margin-top:-20px;height: 60px"></a></div>
                             <nav class="main_nav">
                                 <ul class="headermenu d-flex flex-row align-items-start justify-content-start">
-                                    <li><a class="nobinding" data-scroll-to="#home" data-bind="text:CommonData().Langs.menu_home,attr:{href:'javascript:;'}"></a></li>
-                           
-                                    <li><a class="nobinding" data-scroll-to="#petcare" href="javascript:;" data-bind="text:CommonData().Langs.menu_petcare"> </a></li>   
-                                    <li><a class="nobinding" data-scroll-to="#contact" href="javascript:;" data-bind="text:CommonData().Langs.menu_contact"> </a></li>
+                                    <li><a class="nobinding" data-scroll-to="#home" data-bind="text:CommonData().Langs.menu_home,attr:{href:'javascript:;'}"></a></li>                                  
+                                    <li><a class="nobinding" data-scroll-to="#travel" data-bind="attr:{href:'javascript:;'},text:CommonData().Langs.menu_travel"></a></li>
+                                    
+                                    <li><a class="nobinding" data-scroll-to="#destinations" href="javascript:;">Destinations</a></li>
+                                    <li><a class="nobinding" data-scroll-to="#deals" href="javascript:;">Deals</a></li>
+                                    <li><a class="nobinding" data-scroll-to="#petcare" href="javascript:;">Pet Care</a></li>
+                                    <li><a class="nobinding" data-scroll-to="#about" href="javascript:;">About</a></li>
+                                    <li><a class="nobinding" data-scroll-to="#contact" href="javascript:;">Contact</a></li>
                                 </ul>
                             </nav>
                            
@@ -28,10 +32,12 @@
         </div>
         <div class="header_social d-flex flex-row align-items-center justify-content-start">
             <ul class="d-flex flex-row align-items-start justify-content-start">
-                
-                <li><a data-bind="attr:{href:CommonData().Langs.menu_facebook_link}"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                <li><a data-bind="attr:{href:CommonData().Langs.menu_twitter_link}"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                <li><a data-bind="attr:{href:CommonData().Langs.menu_linkedin_link}"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
             </ul>
         </div>
     </header>
@@ -45,12 +51,25 @@
         </div>
         <div class="menu_content">
             <ul>
-                <li><a class="menu_phone" data-scroll-to="#home" data-bind="attr:{href:'javascript:;'},text:CommonData().Langs.menu_home"></a></li>
-                 <li><a class="menu_phone" data-scroll-to="#petcare" href="javascript:;" data-bind="text:CommonData().Langs.menu_petcare"> </a></li>
-             
-                <li><a class="menu_phone" data-scroll-to="#contact" href="javascript:;" data-bind="text:CommonData().Langs.menu_contact"> </a></li>
+                <li><a class="menu_phone" data-scroll-to="#home" data-bind="attr:{href:'javascript:;'},text:CommonData().Langs.menu_home"></a></li>                                  
+                <li><a class="menu_phone" data-scroll-to="#travel" data-bind="attr:{href:'javascript:;'},text:CommonData().Langs.menu_travel"></a></li>
+                
+                <li><a class="menu_phone" data-scroll-to="#destinations" href="javascript:;">Destinations</a></li>
+                 <li><a class="menu_phone" data-scroll-to="#petcare" href="javascript:;">Pet Care</a></li>
+                <li><a class="menu_phone" data-scroll-to="#about" href="javascript:;">About</a></li>
+                <li><a class="menu_phone" data-scroll-to="#contact" href="javascript:;">Contact</a></li>
             </ul>
         </div>
-        
+        <div class="menu_social">
+            <div class="menu_phone ml-auto">Call us: 00-56 445 678 33</div>
+            <ul class="d-flex flex-row align-items-start justify-content-start">
+                <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
     </div>
 </div>

@@ -36,19 +36,19 @@
 
         <div class="row">
             <div class="col-lg-4 col-md-6 pb-30">
-              <div class="single-service" data-bind="attr:{onClick: 'window.location=\''+Configs().properties_url+'\''}">
+              <div class="single-service">
                 <h4><span data-bind="attr:{class:data().Blocks.service.icon_1}"></span><span data-bind="text:data().Blocks.service.title_1"></h4>
                 <p data-bind="html:data().Blocks.service.content_1"></p>
               </div>
             </div>
             <div class="col-lg-4 col-md-6 pb-30">
-              <div class="single-service" data-bind="attr:{onClick: 'window.location=\''+Configs().travel_url+'\''}">
+              <div class="single-service">
                 <h4><span data-bind="attr:{class:data().Blocks.service.icon_2}"></span><span data-bind="text:data().Blocks.service.title_2"></h4>
                 <p data-bind="html:data().Blocks.service.content_2"></p>             
               </div>
             </div>
             <div class="col-lg-4 col-md-6 pb-30">
-              <div class="single-service" data-bind="attr:{onClick: 'window.location=\''+Configs().dating_url+'\''}">
+              <div class="single-service">
                 <h4><span data-bind="attr:{class:data().Blocks.service.icon_3}"></span><span data-bind="text:data().Blocks.service.title_3"></h4>
                 <p data-bind="html:data().Blocks.service.content_3"></p>               
               </div>
@@ -57,6 +57,35 @@
           </div>
           <br />
 
+          <div class="row properties_inner">
+            <div class="col-lg-4">
+                <div class="properties_item">
+                    <div class="pp_img"> <img class="img-fluid" data-bind="attr:{src:'{{Templateurl}}'+data().Blocks.properties.image_1}" alt=""></div>
+                    <div class="pp_content">
+                        <div data-bind="html:data().Blocks.properties.content_1"></div>
+                        <div class="pp_footer"><a class="main_btn" data-bind="text:CommonData().Langs.menu_contact,attr:{href:'{{siteurl}}'+CommonData().Pages.contact.Slug}"></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="properties_item">
+                    <div class="pp_img"> <img class="img-fluid" data-bind="attr:{src:'{{Templateurl}}'+data().Blocks.properties.image_2}" alt=""></div>
+                    <div class="pp_content">
+                        <div data-bind="html:data().Blocks.properties.content_2"></div>
+                        <div class="pp_footer"><a class="main_btn" data-bind="text:CommonData().Langs.menu_contact,attr:{href:'{{siteurl}}'+CommonData().Pages.contact.Slug}"></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="properties_item">
+                    <div class="pp_img"> <img class="img-fluid" data-bind="attr:{src:'{{Templateurl}}'+data().Blocks.properties.image_3}" alt=""></div>
+                    <div class="pp_content">
+                        <div data-bind="html:data().Blocks.properties.content_3"></div>
+                        <div class="pp_footer"><a class="main_btn" data-bind="text:CommonData().Langs.menu_contact,attr:{href:'{{siteurl}}'+CommonData().Pages.contact.Slug}"></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 <br />

@@ -1,0 +1,20 @@
+
+title::string::Testimonials
+subtitle::string::simply amazing places
+background::string::testimonials.jpg
+
+testimonial1::string::Lorem ipsum dolor sit amet, consectetur adipiscing elit. lobortis dolor. Cras placerat lectus a posuere aliquet. Curabitur quis vehicula odio.
+name1::string::john turner,
+type1::string::client
+
+testimonial2::string::Lorem ipsum dolor sit amet, consectetur adipiscing elit. lobortis dolor. Cras placerat lectus a posuere aliquet. Curabitur quis vehicula odio.
+name2::string::john turner,
+type2::string::client
+
+testimonial3::string::Lorem ipsum dolor sit amet, consectetur adipiscing elit. lobortis dolor. Cras placerat lectus a posuere aliquet. Curabitur quis vehicula odio.
+name3::string::john turner,
+type3::string::client
+
+testimonial4::string::Lorem ipsum dolor sit amet, consectetur adipiscing elit. lobortis dolor. Cras placerat lectus a posuere aliquet. Curabitur quis vehicula odio.
+name4::string::john turner,
+type4::string::client

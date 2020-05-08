@@ -1879,24 +1879,14 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
-/*nav {
+nav {
   margin-right: 70px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   transform-origin: 100% 50%;
-}*/
-nav {
-    margin-right: 0;
-    position: absolute;
-    right: 0;
-    top: 47px;
-    text-align: right;
-    padding: 20px 0;
-    z-index: 5;
-    background: #ece7e7;
-  }
+}
 
 @media (max-width: 767px) {
   nav {
@@ -1907,7 +1897,7 @@ nav {
     text-align: right;
     padding: 20px 0;
     z-index: 5;
-    background: #f0f0f0;
+    background: #fff;
   }
 }
 
@@ -2058,11 +2048,11 @@ nav a:hover {
   }
 }
 
-
+@media (max-width: 767px) {
   .banner-content {
     margin-top: 100px;
   }
-
+}
 
 .banner-content h1 {
   font-size: 42px;

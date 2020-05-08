@@ -11,10 +11,6 @@ models["home"]={
 	init:function(isRedirect){
     	initModel(this,isRedirect); 
 
-	}
-	,
-	Configs:function(){
-		return myApp["Configs"];
 	},
 	CommonData:function(){
 		return myApp["CommonData"];
